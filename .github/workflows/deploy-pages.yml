@@ -30,41 +30,6 @@ jobs:
           rm -rf _site
           mkdir _site
           unzip -q beevers-bell-production.zip -d _site
-          python3 - <<'PY'
-          from pathlib import Path
-
-          path = Path("_site/index.html")
-          html = path.read_text(encoding="utf-8")
-
-          old = '''<div class="resident-intro-label">HOW ONE “YOUR CITY. YOUR VOICE.” CONSULTATION UNFOLDED</div>
-          <p class="resident-lede"><b>Prepared as a resident-led community record for Kingsville residents who have raised concerns and supported the petition,</b> this site documents two contested proposals and their potential effects on <b>child and pedestrian safety, traffic redistribution through nearby residential streets, emergency access, visibility and antisocial-behaviour risk, and whether any eventual Beevers public-toilet location can meet Council’s own stated safety criteria.</b></p>
-          <p class="resident-context">Residents broadly supported the wider park upgrades. The two contested elements were <b>a public toilet at Beevers Reserve</b> and <b>the partial closure of Coronation Street beside Bell Reserve.</b></p>
-          <div class="resident-follow">
-          <div><span>01</span><b>What residents were asked</b><p>What the consultation recorded and what Council published.</p></div>
-          <div><span>02</span><b>What Council endorsed</b><p>The April decision and the evidence that sat behind it.</p></div>
-          <div><span>03</span><b>What happened next</b><p>How consultation, safety, traffic and emergency-access concerns were taken back to Council over the months that followed.</p></div>
-          </div>
-          <p class="resident-linkage"><b>This resident-led record grew from the community response and petition.</b> It brings the chronology and source material together so readers can see where the public record lines up, where questions remained, and judge the process for themselves.</p>'''
-
-          new = '''<div class="resident-intro-label">HOW ONE “YOUR CITY. YOUR VOICE.” CONSULTATION UNFOLDED</div>
-          <p class="resident-lede"><b>Two small residential parks. One Maribyrnong City Council consultation. Two contested elements.</b></p>
-          <p class="resident-context">Residents broadly supported the wider park upgrades. The dispute centred on:</p>
-          <ul class="issue-points resident-intro-points">
-          <li><b>Beevers Reserve</b> · A public toilet.</li>
-          <li><b>Coronation Street beside Bell Reserve</b> · A partial road closure.</li>
-          </ul>
-          <div class="resident-follow">
-          <div><span>01</span><b>What residents were asked</b><p>What the consultation recorded and what Council published.</p></div>
-          <div><span>02</span><b>What Council endorsed</b><p>The April decision and the evidence that sat behind it.</p></div>
-          <div><span>03</span><b>What happened next</b><p>How consultation, safety, traffic and emergency-access concerns were taken back to Council over the months that followed.</p></div>
-          </div>
-          <p class="resident-linkage"><b>This is a resident-led community record.</b> It brings the chronology and source material into one place so readers can follow what was asked, what Council endorsed, what happened next, and judge the process for themselves.</p>'''
-
-          if html.count(old) != 1:
-              raise SystemExit(f"Opening block match count was {html.count(old)}, expected 1")
-
-          path.write_text(html.replace(old, new), encoding="utf-8")
-          PY
           test -f _site/index.html
           test -f _site/.nojekyll
 
