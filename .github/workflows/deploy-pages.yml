@@ -62,6 +62,14 @@ jobs:
           grep -q 'What residents were asked' _site/index.html
           grep -q 'What Council endorsed' _site/index.html
           grep -q 'What happened next' _site/index.html
+      - name: Overlay current approved site
+        shell: bash
+        run: |
+          cp index.html _site/index.html
+          test -f _site/index.html
+          grep -q 'HOW TO READ THIS RECORD' _site/index.html
+          grep -q 'This website follows the story in three parts.' _site/index.html
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
