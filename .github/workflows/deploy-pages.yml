@@ -54,14 +54,6 @@ jobs:
           grep -q 'Star Weekly · 19 May 2026' index.html
           grep -q 'The public record does not establish that Beevers has passed that assessment.' index.html
 
-      - name: Use current resident-record HTML
-        shell: bash
-        run: |
-          cp site/index.html _site/index.html
-          test -f _site/index.html
-          grep -q 'What residents were asked' _site/index.html
-          grep -q 'What Council endorsed' _site/index.html
-          grep -q 'What happened next' _site/index.html
       - name: Overlay current approved site
         shell: bash
         run: |
