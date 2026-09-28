@@ -4,16 +4,15 @@ Locked: 28 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current live version: **v79**
+- Current internal baseline: **v80**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V79_LOCKED_STATE.md**
-- Latest lock commit: **697acb42788df74afed1e0d45e38e6ed03a5acb7**
-- v79 refresh/content commit: **44e35d9875172ff3a4922b40710d1649b3a4492a**
-- GitHub Pages deployments for v79 completed successfully.
+- Latest lock file: **BEEVERS_V80_LOCKED_STATE.md**
+- Visible footer-cleanup commit: **f84f1437a67de2a392ea3703f105047fb8fa9998**
+- GitHub Pages deployment for the footer cleanup completed successfully.
 
-v79 carries forward v78 with no intentional visible change except the footer version marker. A non-visible cache-refresh comment was added to force a fresh deployment.
+v80 carries forward the prior site unchanged except that the public-facing build/version/date line has been removed from the footer. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -86,7 +85,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V79_LOCKED_STATE.md**
+2. **BEEVERS_V80_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
