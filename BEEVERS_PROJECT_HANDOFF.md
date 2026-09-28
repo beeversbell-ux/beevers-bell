@@ -4,15 +4,15 @@ Locked: 28 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v80**
+- Current internal baseline: **v81**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V80_LOCKED_STATE.md**
+- Latest lock file: **BEEVERS_V81_LOCKED_STATE.md**
 - Visible footer-cleanup commit: **f84f1437a67de2a392ea3703f105047fb8fa9998**
 - GitHub Pages deployment for the footer cleanup completed successfully.
 
-v80 carries forward the prior site unchanged except that the public-facing build/version/date line has been removed from the footer. No public-facing version number or build date should appear on the site.
+v81 carries forward the v80 baseline and adds two targeted usability refinements: clearer July chapter/meeting/question flow, and permanent exact-timestamp watch cues on the June councillor response tiles. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -60,6 +60,27 @@ Do not revert to earlier circle treatments.
 - one chronology device per idea
 - one chapter divider per transition
 
+
+## v81 interaction refinement
+
+### July
+Keep this visual reading order:
+1. JULY · WHAT HAD CHANGED?
+2. 21 JULY 2026 · PUBLIC QUESTION TIME
+3. After June, what new safety information reached councillors?
+4. Question / Answered by tiles
+5. COUNCIL RESPONSE
+6. quoted answer
+
+### June councillor tiles
+The four councillor response tiles remain fully clickable and now include permanent mobile-visible exact-moment cues:
+- Thomas: 43:37
+- Pereyra: 44:58
+- Tiwari: 45:36
+- Yengi: 46:28
+
+Use the wording **▶ WATCH EXACT MOMENT · [timestamp] ↗**. The point is to make the direct-to-timestamp YouTube behavior obvious without relying on hover.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -85,7 +106,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V80_LOCKED_STATE.md**
+2. **BEEVERS_V81_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
