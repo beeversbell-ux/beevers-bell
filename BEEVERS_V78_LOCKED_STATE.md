@@ -36,6 +36,9 @@ Repository: **beeversbell-ux/beevers-bell**
 Branch: **main**
 Current approved root file: **index.html**
 Current approved version: **v78**
-Commit: **c5dd3a8700d355aa8661554fe71decefabe604c5**
+Content commit: **c5dd3a8700d355aa8661554fe71decefabe604c5**
+Force-refresh commit: **0bd2d0313e56d611afa46846ad0cdd66c5e0776a**
+
+The force-refresh commit adds only a non-visual cache-bust HTML comment. It does not change page content or layout.
 
 Future Beevers Project chats should recover from this file and the current root index.html.
