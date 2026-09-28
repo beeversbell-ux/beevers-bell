@@ -1198,6 +1198,67 @@ section:first-of-type,
   #toilet .threshold-conclusion{padding:16px}
 }
 </style>
+
+<style>
+/* v77 targeted visual repair: preserve hierarchy, remove regressions */
+.trafficline-split{margin:26px 0 28px}
+.trafficline-split p{margin:0;max-width:860px;font:18px/1.55 Arial,sans-serif;color:var(--ink)}
+.trafficline-split p:first-child{font:700 23px/1.22 Georgia,serif;letter-spacing:-.01em}
+.trafficline-split p+p{margin-top:10px}
+
+#coronation .question-contrast>div{padding:20px}
+#coronation .question-contrast b{font-size:20px;line-height:1.28}
+
+#july{
+  background:#26333b;
+  color:#f7f1e6;
+  padding-top:82px;
+  padding-bottom:62px;
+}
+#july .chapter-tag{border-top-color:var(--gold);color:var(--gold)}
+#july .meeting-banner{border-color:#ffffff88;color:#fff}
+#july .blackquote{
+  font-size:clamp(42px,7vw,72px);
+  line-height:.95;
+  color:#f7f1e6;
+  margin:24px 0 12px;
+}
+#july .quoteattr{margin-top:0;color:var(--gold)}
+#july .july-key,#july .emergency-key{
+  background:rgba(0,0,0,.16);
+  border-left-color:var(--gold);
+  color:#fff;
+}
+#july .july-key .reader-key-label,#july .emergency-key .reader-key-label{color:var(--gold)}
+#july .july-key p,#july .emergency-key p{color:#fff}
+#july .sequence-steps p{margin:0;padding:0 0 12px;font:17px/1.5 Arial,sans-serif}
+#july .sequence-steps p+p{padding-top:12px;border-top:1px solid #ffffff44}
+#july .sequence-steps b{
+  display:block;
+  margin-bottom:4px;
+  font:800 11px/1.1 Arial,sans-serif;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+#july .next-question{padding-top:14px;border-top:1px solid #ffffff44}
+#july .split-context>div{background:rgba(255,255,255,.06);border-color:#ffffff44}
+#july .caption{color:#d7d0c5}
+
+#status{padding-bottom:38px}
+#actions{padding-top:38px}
+
+@media(max-width:760px){
+  .trafficline-split p{font-size:16.5px}
+  .trafficline-split p:first-child{font-size:20px;line-height:1.2}
+  #coronation .question-contrast>div{padding:18px}
+  #coronation .question-contrast b{font-size:18px;line-height:1.3}
+  #july{padding-top:68px;padding-bottom:50px}
+  #july .blackquote{font-size:clamp(40px,11vw,58px)}
+  #status{padding-bottom:32px}
+  #actions{padding-top:32px}
+}
+</style>
 </head>
 <body>
 <div class="top"><div class="w"><span>THE BEEVERS + BELL RECORD</span><span>Kingsville · City of Maribyrnong</span></div></div>
@@ -1418,7 +1479,7 @@ section:first-of-type,
 <section class="safety" id="coronation"><div class="w n"><div class="chapter-tag">THE CORONATION STREET RECORD</div><div class="ey">Traffic redistribution · safety · evidence</div><h2>Closing Coronation Street moves traffic elsewhere. What was tested?</h2>
 <p class="lead">Council’s traffic assessment concluded that the surrounding road network could accommodate the predicted redistributed traffic. Residents then asked what that redistribution meant at street level for pedestrians, children and emergency access.</p>
 <div class="question-contrast"><div><span class="label">WHAT THE REPORT ANSWERS</span><b>Can the surrounding road network accommodate the predicted redistributed traffic?</b></div><div><span class="label">WHAT RESIDENTS WERE ALSO ASKING</span><b>What would those redistributed movements mean for children, pedestrians and emergency access on the surrounding streets?</b></div></div><div class="reader-key safety-key"><div class="reader-key-label">WHY THAT DIFFERENCE MATTERS</div><p><b>Showing that surrounding streets can carry the extra traffic is not the same as showing what that traffic means for children, pedestrians or emergency access.</b> The report supports a conclusion about whether surrounding streets can absorb the predicted traffic. This review did not locate a dedicated assessment connecting that extra traffic to child and pedestrian exposure around Wales Street Playground, or a quantified route-specific emergency-response analysis.</p></div>
-<p class="trafficline">Closing part of Coronation Street would not make the existing traffic disappear. The assessment predicts that some vehicles would instead use nearby residential streets, and estimates how much extra traffic those streets would receive.</p>
+<div class="trafficline trafficline-split"><p><b>Closing part of Coronation Street would not make the existing traffic disappear.</b></p><p>The assessment predicts that some vehicles would instead use nearby residential streets. It then estimates how much extra traffic those streets would receive.</p></div>
 <figure class="figure">
 <img alt="Coronation Street beside Bell Reserve, with nearby homes visible" loading="lazy" src="assets/image-06.webp"/>
 <figcaption class="caption"><b>Coronation Street beside Bell Reserve.</b> Homes sit immediately beside the street and reserve. Closing this section would redirect some vehicle movements onto nearby residential streets. <b>That is why residents have focused on what the change could mean for children and pedestrians, and for emergency access through the surrounding streets.</b></figcaption>
@@ -1440,17 +1501,16 @@ section:first-of-type,
 <p><a class="src" href="https://www.yourcityyourvoice.com.au/download_file/4383/1220" rel="noopener" target="_blank">Open the Coronation Street traffic assessment ↗</a></p>
 </div></section>
 <section class="black" id="july"><div class="w n"><div class="chapter-tag">JULY · WHAT HAD CHANGED?</div><div class="meeting-banner">21 JULY 2026 · PUBLIC QUESTION TIME</div><h2>After June, what new safety information reached councillors?</h2>
-<div class="july-scan">
-<div><span>JUNE</span><b>Questions exposed gaps in what some councillors said they had appreciated.</b></div>
-<div><span>JULY</span><b>Council said no additional traffic or pedestrian-safety information had been provided to councillors.</b></div>
-<div><span>STILL TO COME</span><b>Emergency-service input was described as part of the later statutory road-closure process.</b></div>
-</div>
 <div class="quotecontext split-context"><div><span class="label">QUESTION</span><p>Fred Maddern asked what additional traffic or pedestrian-safety information had been provided to councillors since the June meeting.</p></div><div><span class="label">ANSWERED BY</span><p>Director, Infrastructure Services · Maribyrnong City Council.</p></div></div>
 <a class="blackquote source-tile" href="https://www.maribyrnong.vic.gov.au/About/Council-Meetings/Agendas-and-minutes/21-July-2026" rel="noopener" target="_blank">“No additional information has been provided.”</a>
 <div class="quoteattr">Director, Infrastructure Services · 21 July Public Question Time</div>
 <div class="reader-key july-key">
 <div class="reader-key-label">THE SEQUENCE</div>
-<p><b>June:</b> some councillors identified details of the traffic evidence they had not appreciated or had not been across.<br/><b>July:</b> Council said no additional traffic or pedestrian-safety information had been provided to councillors since that meeting.<br/><b>The concepts remained endorsed.</b></p>
+<div class="sequence-steps">
+<p><b>June</b> Some councillors identified details of the traffic evidence they had not appreciated or had not been across.</p>
+<p><b>July</b> Council said no additional traffic or pedestrian-safety information had been provided to councillors since that meeting.</p>
+<p><b>Status</b> The concepts remained endorsed.</p>
+</div>
 <p class="next-question">That does not prove no reconsideration occurred. It does mean the public record does not show new traffic or pedestrian-safety information reaching councillors between those two points.</p>
 </div>
 <h3 class="july-subhead">Emergency services were raised separately.</h3><p class="lead">A separate question asked whether Ambulance Victoria, fire and other emergency services had been consulted about the proposed closure and timely attendance.</p>
@@ -1498,7 +1558,7 @@ section:first-of-type,
 <p class="source-note"><b>Resident correspondence:</b> may be referenced where relevant to chronology; private correspondence is not reproduced. Public sources are used wherever they establish the same point.</p>
 </div></section>
 <footer style="padding:28px 30px 42px;max-width:1120px;margin:auto;font:12px/1.55 Arial,sans-serif;color:#625d53">
-<b>Preview build: 28 September 2026 · v76.</b><br/>
+<b>Preview build: 28 September 2026 · v77.</b><br/>
 This record is maintained against the available public sources. Where later source-checking changes an earlier understanding, the wording is corrected.
 </footer>
 </body></html>
