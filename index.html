@@ -1273,7 +1273,7 @@ section:first-of-type{padding-bottom:40px}
 <!-- v78 cache refresh 2026-09-28T12:36+10:00 -->
 
 <style>
-/* v83: preserve v82 exact-moment links and give the cream-section CTAs distinct action contrast */
+/* v84: navy exact-moment CTA on cream; one divider below, no competing rule above */
 #july .chapter-tag{
   margin-bottom:22px;
   padding-top:16px;
@@ -1321,23 +1321,29 @@ section:first-of-type{padding-bottom:40px}
 #toilet .pqt-event.source-tile .tile-watch{
   display:inline-flex;
   align-items:center;
-  gap:8px;
+  gap:9px;
   width:max-content;
   max-width:100%;
-  margin-top:18px;
+  margin-top:22px;
   padding:12px 14px 11px;
-  background:var(--ink);
+  border:0!important;
+  border-top:0!important;
+  background:#263b4a;
   color:#fff;
+  box-shadow:none;
   font:800 11px/1.2 Arial,sans-serif;
   letter-spacing:.075em;
   text-transform:uppercase;
 }
+#toilet .pqt-event.source-tile .tile-watch .watch-label,
 #toilet .pqt-event.source-tile .tile-watch .watch-time{
-  color:var(--gold);
+  color:#fff;
+}
+#toilet .pqt-event.source-tile .tile-watch .watch-time{
   white-space:nowrap;
 }
 #toilet .pqt-event.source-tile:hover .tile-watch{
-  background:#302d28;
+  background:#1f313e;
 }
 #toilet .pqt-event.source-tile:hover .tile-watch .watch-label,
 #toilet .pqt-event.source-tile:hover .tile-watch .watch-time{
@@ -1359,10 +1365,10 @@ section:first-of-type{padding-bottom:40px}
     font-size:10.5px;
   }
   #toilet .pqt-event.source-tile .tile-watch{
-    margin-top:16px;
+    margin-top:20px;
     padding:12px 13px 11px;
     font-size:10.5px;
-    gap:7px;
+    gap:8px;
   }
 }
 </style>
