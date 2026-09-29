@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v98**
+- Current internal baseline: **v99**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V98_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **8e5d63765afdd02efb4e66b785281643a0ec5004**
-- SEO deployment run **36572870712** completed successfully.
+- Latest lock file: **BEEVERS_V99_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **ccc08ab087f7ae942bda8beeeaeb5df4d5350145**
+- SEO deployment run **36573697704** completed successfully.
 
-v98 carries forward v97 and sharpens the May/July contrast without repeating the quote twice. May now makes 14.4 the single visual hinge between the published 52.7/38.3 figures and the 50/50 description immediately above; July states that the same 14.4-point gap remained when the 50/50 description was used again. The 9.0% unsure figure remains secondary and italic. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
+v99 carries forward v98 and finishes the May/July handoff. A deliberate gap follows each exact-moment source button before the contrast/evidence block, red vertical rules are tightly scoped to the content they frame, and the Between May and July bridge now makes the chronology explicit: by June the discrepancy was formally before Council; the petition contrasted the published 52.7/38.3 figures with the 50/50 description; Council formally received it; and the 50/50 description was used again in July. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -388,6 +388,16 @@ July:
 - 9.0% unsure remains secondary and italic
 - avoids repeating the full July quote inside the evidence block
 
+## v99 final May/July handoff
+
+- deliberate pause after both exact-moment source buttons before the contrast/evidence block
+- May/July red rules trimmed to the exact content they frame
+- bridge kept deliberately intermediate, not a hero block
+- bridge now says:
+  **By June, the discrepancy was formally before Council.** The petition specifically contrasted Council’s published 52.7% / 38.3% Phase 2 figures with the “50/50” description. Council formally received the petition. **In July, the 50/50 description was used again.**
+
+This is intentionally factual and chronological. It does not use “lied” or imply that a particular officer personally read the petition.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -413,7 +423,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V98_LOCKED_STATE.md**
+2. **BEEVERS_V99_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
