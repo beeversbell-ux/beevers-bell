@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v93**
+- Current internal baseline: **v94**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V93_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **61483e7d779455c64da1f714fe380153d9b73ff1**
-- SEO deployment run **36566899862** completed successfully.
+- Latest lock file: **BEEVERS_V94_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **a1c5bca2a07ff4e3faaa2a2994850c591db4b61a**
+- SEO deployment run **36567812533** completed successfully.
 
-v93 carries forward v92's technical/factual SEO work but restores the opening to the pre-v92 reader-first structure. The visible Phase 1/Phase 2 explainer and surrounding-suburb paragraph were removed from the opening, and the top bar/intro label were restored. SEO remains in metadata, structured data and lower-page source context rather than bloating the opening. No public-facing version number or build date should appear on the site.
+v94 carries forward v93's restored opening and refines the May/July Patrick Jess 50/50 sequence into a matched, easier-to-scan source-and-evidence pair. Exact-moment video links are now prominent source-card footers, evidence panels mirror each other, and paragraph-heavy duplication was removed. The April decision wording now explicitly records that Cr Elena Pereyra, Wattle Ward, moved the motion to endorse the Beevers Reserve and Bell Reserve final concept plans, with factual Person entities for Pereyra and Bernadette Thomas added to structured data. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -292,6 +292,28 @@ Technical/factual SEO remains in:
 
 Rule going forward: SEO must not visibly bloat the opening or compromise the reader experience.
 
+## v94 May/July readability + factual councillor search context
+
+May and July 50/50 moments now deliberately mirror each other:
+- black date / PUBLIC QUESTION TIME banner
+- Patrick Jess + Director role
+- concise setup
+- large clickable quote source card
+- prominent exact-moment footer (12:30 May, 39:44 July)
+- compact 52.7 / 38.3 / 9.0 evidence panel
+- May shows 14.4 percentage-point gap
+- July says the published figures had not changed
+
+Removed:
+- paragraph-heavy May explainer
+- large July "used the 50/50 description again" heading
+- duplicated separate July result key
+
+For factual search context, the April decision section now states:
+**Cr Elena Pereyra · Wattle Ward · moved the motion to endorse the Beevers Reserve and Bell Reserve final concept plans.**
+
+Structured data also includes factual Person entities for Pereyra and Bernadette Thomas.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -317,7 +339,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V93_LOCKED_STATE.md**
+2. **BEEVERS_V94_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
