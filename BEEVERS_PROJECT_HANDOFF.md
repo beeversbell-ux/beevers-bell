@@ -1,18 +1,18 @@
 # Beevers + Bell Project Handoff
 
-Locked: 28 September 2026, Melbourne time.
+Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v81**
+- Current internal baseline: **v82**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V81_LOCKED_STATE.md**
-- Visible footer-cleanup commit: **f84f1437a67de2a392ea3703f105047fb8fa9998**
-- GitHub Pages deployment for the footer cleanup completed successfully.
+- Latest lock file: **BEEVERS_V82_LOCKED_STATE.md**
+- Visible-content commit: **650aba66a1cd32b810cbe9e69105148bdfc835e2**
+- Visible-content deployment run **36516598119** completed successfully.
 
-v81 carries forward the v80 baseline and adds two targeted usability refinements: clearer July chapter/meeting/question flow, and permanent exact-timestamp watch cues on the June councillor response tiles. No public-facing version number or build date should appear on the site.
+v82 carries forward the v81 baseline and adds direct exact-moment links to the two Patrick Jess “50/50” source tiles in the Beevers toilet record. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -81,6 +81,24 @@ The four councillor response tiles remain fully clickable and now include perman
 
 Use the wording **▶ WATCH EXACT MOMENT · [timestamp] ↗**. The point is to make the direct-to-timestamp YouTube behavior obvious without relying on hover.
 
+## v82 exact-moment refinement
+
+### Beevers toilet record
+The two Public Question Time source tiles now link directly to the exact Council recording moments and use the same visible timestamp cue as the June councillor tiles:
+- 19 May Patrick Jess: **12:30** → YouTube **Cap4VfGyqHI**, offset **750s**
+- 21 July Patrick Jess: **39:44** → YouTube **05x3GgMxzZI**, offset **2384s**
+
+Use the wording **▶ WATCH EXACT MOMENT · [timestamp] ↗**.
+
+The whole tile remains clickable. Keep the treatment restrained:
+- no “smoking gun” wording
+- no warning icon treatment
+- no oversized YouTube branding
+- no duplicate CTA
+- leave the surrounding explanation and published 52.7% / 38.3% figures unchanged
+
+The purpose is source verification, not added argument.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -106,7 +124,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V81_LOCKED_STATE.md**
+2. **BEEVERS_V82_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
