@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v91**
+- Current internal baseline: **v92**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V91_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **f8ea8c85bdd7136575064d213f85bc9142479c84**
-- SEO deployment run **36563428746** completed successfully.
+- Latest lock file: **BEEVERS_V92_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **7f0d149112016c51d9c3ca9faaf29a848d6c0874**
+- SEO deployment run **36566372560** completed successfully.
 
-v91 carries forward v90 with no visible design/content changes and adds technical SEO: canonical URL, index/follow robots metadata, Open Graph/Twitter metadata, WebSite JSON-LD, robots.txt, sitemap.xml, and deployment support for those files. No public-facing version number or build date should appear on the site.
+v92 carries forward v91 and strengthens factual local-search/entity context: Maribyrnong City Council, Your City Your Voice, Phase 1, Phase 2, Pick My Park, Victorian Government, Kingsville, Melbourne’s inner west, and municipal context for Yarraville, Seddon, West Footscray and Footscray. It also adds source cards for Phase 1 and Pick My Park and expands JSON-LD. No unsupported allegation labels were added. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -246,6 +246,35 @@ SEO deployment run **36563428746** completed successfully.
 
 Next external setup step: create a **Domain property** for `beeversbell.com` in Google Search Console, verify it using Google’s TXT record in Cloudflare DNS, submit `sitemap.xml`, then use URL Inspection on `https://beeversbell.com/` and request indexing.
 
+## v92 factual SEO and Search Console status
+
+Search Console setup completed:
+- Domain property `beeversbell.com` verified via Cloudflare DNS.
+- Correct sitemap `https://beeversbell.com/sitemap.xml` submitted successfully and discovered 1 page.
+- URL Inspection showed the homepage is already on Google and indexed.
+- Live Test showed the page is available to Google and can be indexed.
+- A fresh indexing request was accepted into Google’s priority crawl queue.
+
+v92 then strengthened factual search context without adding unsupported labels:
+- Maribyrnong City Council
+- Your City, Your Voice
+- Phase 1 engagement
+- Phase 2 engagement
+- Beevers Reserve
+- Bell Reserve
+- Coronation Street
+- Pick My Park
+- Victorian Government
+- Kingsville
+- Melbourne’s inner west
+- Yarraville, Seddon, West Footscray and Footscray as City of Maribyrnong municipal context
+
+Opening now explicitly describes the two engagement phases and the local municipal context.
+Source cards 13 and 14 cover Phase 1 and Your City, Your Voice + Pick My Park.
+Structured data was expanded with factual entities and local-search terms.
+
+Do not add `corruption`, `misleading`, `misdirection` or comparable labels purely for SEO unless a future sourced record specifically supports carefully attributed wording.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -271,7 +300,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V91_LOCKED_STATE.md**
+2. **BEEVERS_V92_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
