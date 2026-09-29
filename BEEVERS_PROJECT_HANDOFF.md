@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v88**
+- Current internal baseline: **v89**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V88_LOCKED_STATE.md**
-- Visible-content commit: **de028637833cd2dcc3983034cb7afa4ddd2d9499**
-- Visible-content deployment run **36521787381** completed successfully.
+- Latest lock file: **BEEVERS_V89_LOCKED_STATE.md**
+- Visible-content commit: **5b9b9e862ea5509a72bd3881ddef90a21c391ee7**
+- Visible-content deployment run **36523579249** completed successfully.
 
-v88 carries forward v87 and further simplifies the May/July Patrick Jess source cards: a lighter explainer treatment, a plain navy exact-moment source link instead of a boxed button, and less rule clutter. No public-facing version number or build date should appear on the site.
+v89 carries forward v88 and aligns the May and July Patrick Jess source actions directly beneath the quoted words, with plain deep-navy text and no underline/rule treatment. The May explanatory block now follows the source action. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -198,6 +198,19 @@ The cream-section presentation is now quieter:
 
 Do not reintroduce a filled navy button here. The aim is to keep the source obvious without adding another competing block.
 
+## v89 May/July source-action alignment
+
+The Patrick Jess source actions remain:
+- 19 May: **12:30**
+- 21 July: **39:44**
+
+Both now follow the same visual order:
+1. quoted wording
+2. **▶ WATCH EXACT MOMENT · [timestamp] ↗**
+3. explanatory/context material where applicable
+
+The source action is plain deep-navy text, with no filled/outlined button and no underline/rule. Keep it visually subordinate to the quote but clearly tappable.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -223,7 +236,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V88_LOCKED_STATE.md**
+2. **BEEVERS_V89_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
