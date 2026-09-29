@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v92**
+- Current internal baseline: **v93**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V92_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **7f0d149112016c51d9c3ca9faaf29a848d6c0874**
-- SEO deployment run **36566372560** completed successfully.
+- Latest lock file: **BEEVERS_V93_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **61483e7d779455c64da1f714fe380153d9b73ff1**
+- SEO deployment run **36566899862** completed successfully.
 
-v92 carries forward v91 and strengthens factual local-search/entity context: Maribyrnong City Council, Your City Your Voice, Phase 1, Phase 2, Pick My Park, Victorian Government, Kingsville, Melbourne’s inner west, and municipal context for Yarraville, Seddon, West Footscray and Footscray. It also adds source cards for Phase 1 and Pick My Park and expands JSON-LD. No unsupported allegation labels were added. No public-facing version number or build date should appear on the site.
+v93 carries forward v92's technical/factual SEO work but restores the opening to the pre-v92 reader-first structure. The visible Phase 1/Phase 2 explainer and surrounding-suburb paragraph were removed from the opening, and the top bar/intro label were restored. SEO remains in metadata, structured data and lower-page source context rather than bloating the opening. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -275,6 +275,23 @@ Structured data was expanded with factual entities and local-search terms.
 
 Do not add `corruption`, `misleading`, `misdirection` or comparable labels purely for SEO unless a future sourced record specifically supports carefully attributed wording.
 
+## v93 opening restored after SEO pass
+
+The v92 opening was judged too visually heavy. v93 restores the pre-v92 opening:
+- top bar back to **Kingsville · City of Maribyrnong**
+- intro label back to **HOW THE “YOUR CITY, YOUR VOICE” CONSULTATION UNFOLDED**
+- removes the extra visible Phase 1/Phase 2 explainer from the opening
+- removes the extra visible local-context paragraph listing Yarraville, Seddon, West Footscray and Footscray
+- preserves the original opening flow and spacing
+
+Technical/factual SEO remains in:
+- canonical/robots/sitemap
+- Open Graph/Twitter metadata
+- JSON-LD structured data
+- lower-page source cards for Phase 1 and Pick My Park
+
+Rule going forward: SEO must not visibly bloat the opening or compromise the reader experience.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -300,7 +317,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V92_LOCKED_STATE.md**
+2. **BEEVERS_V93_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
