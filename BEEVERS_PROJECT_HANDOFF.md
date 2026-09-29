@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v89**
+- Current internal baseline: **v90**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V89_LOCKED_STATE.md**
-- Visible-content commit: **5b9b9e862ea5509a72bd3881ddef90a21c391ee7**
-- Visible-content deployment run **36523579249** completed successfully.
+- Latest lock file: **BEEVERS_V90_LOCKED_STATE.md**
+- Visible-content commit: **5e9fd1a0168e3da157cf9c6a4aef7abc52011baf**
+- Visible-content deployment run **36524434876** completed successfully.
 
-v89 carries forward v88 and aligns the May and July Patrick Jess source actions directly beneath the quoted words, with plain deep-navy text and no underline/rule treatment. The May explanatory block now follows the source action. No public-facing version number or build date should appear on the site.
+v90 carries forward v89 and simplifies the May-to-July chronology bridge into a quiet transition: no filled block, no red side bar, one thin top rule, smaller kicker and smaller sans-serif body copy. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -211,6 +211,20 @@ Both now follow the same visual order:
 
 The source action is plain deep-navy text, with no filled/outlined button and no underline/rule. Keep it visually subordinate to the quote but clearly tappable.
 
+## v90 May-to-July bridge tidy-up
+
+The factual bridge between the May and July Patrick Jess source moments is unchanged.
+
+Its presentation is now deliberately quieter:
+- no filled background
+- no red left-side bar
+- one thin top rule
+- smaller red kicker
+- smaller sans-serif body copy
+- tighter padding and spacing
+
+The intent is to preserve the chronology while removing another competing visual block from the mobile view.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -236,7 +250,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V89_LOCKED_STATE.md**
+2. **BEEVERS_V90_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
