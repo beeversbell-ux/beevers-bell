@@ -1517,11 +1517,11 @@ section:first-of-type{padding-bottom:40px}
 }
 </style>
 <style>
-/* v97: make the published-result vs 50/50 description contrast explicit without enlarging everything */
+/* v98: one clear hinge in May, one clear link-back in July */
 #toilet .contrast-read{padding-top:14px}
 #toilet .contrast-step{
   margin:0;
-  padding:0 0 12px;
+  padding:0 0 10px;
 }
 #toilet .contrast-step>span{
   display:block;
@@ -1530,54 +1530,68 @@ section:first-of-type{padding-bottom:40px}
   letter-spacing:.09em;
   color:var(--red);
 }
-#toilet .contrast-step ul{
+#toilet .contrast-step ul,
+#toilet .july-contrast .contrast-step ul{
   margin:0;
   padding-left:20px;
   font:15.5px/1.55 Arial,sans-serif;
 }
 #toilet .contrast-step li{margin:2px 0}
 #toilet .contrast-step li b{font-size:17px}
-#toilet .contrast-gap{
-  margin:0 0 14px;
-  padding:9px 0 10px;
+#toilet .gap-punch{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  margin:4px 0 11px;
+  padding:11px 0 10px;
   border-top:1px solid var(--rule);
   border-bottom:1px solid var(--rule);
-  font:15.5px/1.35 Arial,sans-serif;
 }
-#toilet .contrast-step>p{
+#toilet .gap-punch strong{
+  font:700 34px/1 Georgia,serif;
+  color:var(--red);
+}
+#toilet .gap-punch span{
+  font:800 14px/1.25 Arial,sans-serif;
+  letter-spacing:.02em;
+}
+#toilet .contrast-close{
   margin:0;
-  font:700 19px/1.35 Georgia,serif;
-}
-#toilet .july-contrast{
-  padding-top:17px;
-}
-#toilet .july-contrast .contrast-step{
-  padding-bottom:12px;
-}
-#toilet .july-contrast .contrast-step ul{
-  margin:0;
-  padding-left:20px;
   font:15.5px/1.5 Arial,sans-serif;
 }
-#toilet .july-description{
-  margin-top:4px;
-  padding-top:12px!important;
-  border-top:1px solid var(--rule);
-}
-#toilet .july-description p{
+#toilet .contrast-close b{
+  font-family:Georgia,serif;
   font-size:18px;
+}
+#toilet .quote-explainer .unsure-note{
+  margin:10px 0 0;
+  font:13.5px/1.45 Arial,sans-serif;
+  color:var(--muted);
+}
+#toilet .july-contrast{padding-top:17px}
+#toilet .july-linkback{
+  margin:2px 0 8px;
+  padding-top:12px;
+  border-top:1px solid var(--rule);
+  font:15.5px/1.5 Arial,sans-serif;
+}
+#toilet .july-linkback b{
+  color:var(--ink);
 }
 #toilet .july-contrast .key-foot{
   display:block;
-  margin-top:2px;
+  margin-top:4px;
   font:13px/1.4 Arial,sans-serif;
   color:var(--muted);
 }
 @media(max-width:760px){
   #toilet .contrast-step ul,
   #toilet .july-contrast .contrast-step ul{font-size:14.5px}
-  #toilet .contrast-step>p{font-size:17px}
-  #toilet .contrast-gap{font-size:14.5px}
+  #toilet .gap-punch strong{font-size:30px}
+  #toilet .gap-punch span{font-size:13px}
+  #toilet .contrast-close,
+  #toilet .july-linkback{font-size:14.5px}
+  #toilet .contrast-close b{font-size:17px}
 }
 </style>
 </head>
@@ -1713,14 +1727,14 @@ section:first-of-type{padding-bottom:40px}
 <div class="quote-explainer contrast-read">
 <div class="quote-explainer-label">THE CONTRAST</div>
 <div class="contrast-step"><span>COUNCIL’S PUBLISHED PHASE 2 RESULT</span><ul><li><b>52.7%</b> did not support</li><li><b>38.3%</b> supported</li></ul></div>
-<div class="contrast-gap"><b>14.4 percentage points apart.</b></div>
-<div class="contrast-step"><span>HOW IT WAS DESCRIBED IN MAY</span><p>“about a 50/50 split”</p></div>
-<p class="unsure-note">9.0% were unsure. Consultation was advisory. This record is comparing the public description with Council’s published figures.</p>
+<div class="gap-punch"><strong>14.4</strong><span>percentage-point gap</span></div>
+<p class="contrast-close">The description immediately above was <b>“about a 50/50 split”.</b></p>
+<p class="unsure-note"><i>9.0% were unsure. Consultation was advisory.</i></p>
 </div>
 </div>
 </div>
 
-<div class="petitionmark"><b>Between May and July</b><p>The petition made the 50/50 characterisation a specific issue by contrasting it with Council’s published 52.7% / 38.3% Phase 2 figures. Council formally received the petition in June.</p></div>
+<div class="petitionmark"><b>Between May and July</b><p>The petition made the <b>14.4-point gap between Council’s published figures and the 50/50 description</b> a specific issue. Council formally received the petition in June.</p></div>
 
 <div class="pqt-event">
 <div class="pqt-heading"><span>21 JULY 2026</span><strong>PUBLIC QUESTION TIME</strong></div>
@@ -1734,8 +1748,8 @@ section:first-of-type{padding-bottom:40px}
 </div>
 <div class="key july-contrast">
 <div class="contrast-step"><span>PUBLISHED FIGURES HAD NOT CHANGED</span><ul><li><b>52.7%</b> did not support</li><li><b>38.3%</b> supported</li></ul></div>
-<div class="contrast-step july-description"><span>HOW IT WAS DESCRIBED AGAIN IN JULY</span><p>“about 50/50 as we've reported previously”</p></div>
-<span class="key-foot">9.0% were unsure.</span>
+<p class="july-linkback"><b>The same 14.4-point gap remained.</b><br/>The 50/50 description was used again in July.</p>
+<span class="key-foot"><i>9.0% were unsure.</i></span>
 </div>
 <p><a class="src" href="https://www.yourcityyourvoice.com.au/beeversbell" rel="noopener" target="_blank">View Council's Beevers + Bell project page ↗</a></p>
 <div class="surveillance">
@@ -1900,6 +1914,6 @@ section:first-of-type{padding-bottom:40px}
 <footer style="padding:28px 30px 42px;max-width:1120px;margin:auto;font:12px/1.55 Arial,sans-serif;color:#625d53">
 This record is maintained against the available public sources. Where later source-checking changes an earlier understanding, the wording is corrected.
 </footer>
-<!-- v97: explicit vertical May/July result-vs-description contrast; retain v95 SEO signals -->
+<!-- v98: sharpen May hinge and July link-back; retain v95 SEO signals -->
 <!-- cache refresh -->
 </body></html>
