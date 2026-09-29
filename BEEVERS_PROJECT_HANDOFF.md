@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v94**
+- Current internal baseline: **v95**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V94_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **a1c5bca2a07ff4e3faaa2a2994850c591db4b61a**
-- SEO deployment run **36567812533** completed successfully.
+- Latest lock file: **BEEVERS_V95_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **9e2d53ee60b1159242b17ed69d3dac56dcd1411a**
+- SEO deployment run **36568390728** completed successfully.
 
-v94 carries forward v93's restored opening and refines the May/July Patrick Jess 50/50 sequence into a matched, easier-to-scan source-and-evidence pair. Exact-moment video links are now prominent source-card footers, evidence panels mirror each other, and paragraph-heavy duplication was removed. The April decision wording now explicitly records that Cr Elena Pereyra, Wattle Ward, moved the motion to endorse the Beevers Reserve and Bell Reserve final concept plans, with factual Person entities for Pereyra and Bernadette Thomas added to structured data. No public-facing version number or build date should appear on the site.
+v95 carries forward v94 and strengthens Elena Pereyra search relevance without changing the opening or main visual hierarchy. The HTML title and meta description now include Elena Pereyra in factual Beevers/Bell context, source card 02 identifies her as mover of the 21 April motion, the decision role has a stable #elena-pereyra fragment, and JSON-LD now uses an @graph with WebSite, WebPage and Person entities tied to the official Council councillor page. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -314,6 +314,21 @@ For factual search context, the April decision section now states:
 
 Structured data also includes factual Person entities for Pereyra and Bernadette Thomas.
 
+## v95 Elena Pereyra search relevance
+
+The page opening and main design were not changed.
+
+Search-relevance changes:
+- HTML title now includes **Elena Pereyra**
+- meta description links her name to the **21 April 2026 motion**
+- Open Graph/Twitter metadata aligned to the same factual wording
+- source card 02 now says **21 April decision · Elena Pereyra moved the motion**
+- existing April role gets stable fragment **#elena-pereyra**
+- JSON-LD now uses an @graph with WebSite, WebPage and Person entities
+- Elena Person entity is tied to her current official Maribyrnong councillor listing with `sameAs`
+
+This is intended to improve exact-name relevance without bloating the visible opening or adding unsupported labels.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -339,7 +354,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V94_LOCKED_STATE.md**
+2. **BEEVERS_V95_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
