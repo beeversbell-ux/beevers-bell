@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v87**
+- Current internal baseline: **v88**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V87_LOCKED_STATE.md**
-- Visible-content commit: **8d102fc55ce64509d2830c633a44c2154696e4fb**
-- Visible-content deployment run **36521595597** completed successfully.
+- Latest lock file: **BEEVERS_V88_LOCKED_STATE.md**
+- Visible-content commit: **de028637833cd2dcc3983034cb7afa4ddd2d9499**
+- Visible-content deployment run **36521787381** completed successfully.
 
-v87 carries forward v86 and simplifies only the cream-section exact-moment CTA styling in the Beevers toilet record: transparent background, thin neutral outline, dark ink text, and reduced visual weight. No public-facing version number or build date should appear on the site.
+v88 carries forward v87 and further simplifies the May/July Patrick Jess source cards: a lighter explainer treatment, a plain navy exact-moment source link instead of a boxed button, and less rule clutter. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -184,6 +184,20 @@ Their visual treatment is now intentionally quieter:
 
 This is a visual tidy-up only. The source links, timestamps and surrounding text are unchanged.
 
+## v88 May/July source-card tidy-up
+
+The 19 May and 21 July Patrick Jess tiles keep the same quotes, timestamps and direct video links:
+- 19 May: **12:30**
+- 21 July: **39:44**
+
+The cream-section presentation is now quieter:
+- the **WHAT THAT MEANS HERE** explainer has a transparent background and thinner red rule
+- the exact-moment action is a plain deep-navy text link with a simple underline, not a filled or outlined box
+- the extra divider directly beneath the source card is removed
+- spacing now does more of the separation work
+
+Do not reintroduce a filled navy button here. The aim is to keep the source obvious without adding another competing block.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -209,7 +223,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V87_LOCKED_STATE.md**
+2. **BEEVERS_V88_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
