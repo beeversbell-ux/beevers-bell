@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v90**
+- Current internal baseline: **v91**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V90_LOCKED_STATE.md**
-- Visible-content commit: **5e9fd1a0168e3da157cf9c6a4aef7abc52011baf**
-- Visible-content deployment run **36524434876** completed successfully.
+- Latest lock file: **BEEVERS_V91_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **f8ea8c85bdd7136575064d213f85bc9142479c84**
+- SEO deployment run **36563428746** completed successfully.
 
-v90 carries forward v89 and simplifies the May-to-July chronology bridge into a quiet transition: no filled block, no red side bar, one thin top rule, smaller kicker and smaller sans-serif body copy. No public-facing version number or build date should appear on the site.
+v91 carries forward v90 with no visible design/content changes and adds technical SEO: canonical URL, index/follow robots metadata, Open Graph/Twitter metadata, WebSite JSON-LD, robots.txt, sitemap.xml, and deployment support for those files. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -225,6 +225,27 @@ Its presentation is now deliberately quieter:
 
 The intent is to preserve the chronology while removing another competing visual block from the mobile view.
 
+## v91 technical SEO baseline
+
+No visible page design or wording changed.
+
+Added to the homepage:
+- canonical: **https://beeversbell.com/**
+- robots meta: **index, follow**
+- Open Graph metadata
+- Twitter summary metadata
+- WebSite JSON-LD structured data
+
+Added root crawl files:
+- **robots.txt** allows crawling and points to the sitemap
+- **sitemap.xml** contains the canonical homepage and a 2026-09-29 lastmod
+
+The GitHub Pages workflow now copies both files into the published `_site` directory and verifies their expected contents before deployment.
+
+SEO deployment run **36563428746** completed successfully.
+
+Next external setup step: create a **Domain property** for `beeversbell.com` in Google Search Console, verify it using Google’s TXT record in Cloudflare DNS, submit `sitemap.xml`, then use URL Inspection on `https://beeversbell.com/` and request indexing.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -250,7 +271,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V90_LOCKED_STATE.md**
+2. **BEEVERS_V91_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
