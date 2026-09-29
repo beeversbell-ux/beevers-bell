@@ -1516,6 +1516,70 @@ section:first-of-type{padding-bottom:40px}
   }
 }
 </style>
+<style>
+/* v97: make the published-result vs 50/50 description contrast explicit without enlarging everything */
+#toilet .contrast-read{padding-top:14px}
+#toilet .contrast-step{
+  margin:0;
+  padding:0 0 12px;
+}
+#toilet .contrast-step>span{
+  display:block;
+  margin-bottom:7px;
+  font:800 10.5px/1.1 Arial,sans-serif;
+  letter-spacing:.09em;
+  color:var(--red);
+}
+#toilet .contrast-step ul{
+  margin:0;
+  padding-left:20px;
+  font:15.5px/1.55 Arial,sans-serif;
+}
+#toilet .contrast-step li{margin:2px 0}
+#toilet .contrast-step li b{font-size:17px}
+#toilet .contrast-gap{
+  margin:0 0 14px;
+  padding:9px 0 10px;
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+  font:15.5px/1.35 Arial,sans-serif;
+}
+#toilet .contrast-step>p{
+  margin:0;
+  font:700 19px/1.35 Georgia,serif;
+}
+#toilet .july-contrast{
+  padding-top:17px;
+}
+#toilet .july-contrast .contrast-step{
+  padding-bottom:12px;
+}
+#toilet .july-contrast .contrast-step ul{
+  margin:0;
+  padding-left:20px;
+  font:15.5px/1.5 Arial,sans-serif;
+}
+#toilet .july-description{
+  margin-top:4px;
+  padding-top:12px!important;
+  border-top:1px solid var(--rule);
+}
+#toilet .july-description p{
+  font-size:18px;
+}
+#toilet .july-contrast .key-foot{
+  display:block;
+  margin-top:2px;
+  font:13px/1.4 Arial,sans-serif;
+  color:var(--muted);
+}
+@media(max-width:760px){
+  #toilet .contrast-step ul,
+  #toilet .july-contrast .contrast-step ul{font-size:14.5px}
+  #toilet .contrast-step>p{font-size:17px}
+  #toilet .contrast-gap{font-size:14.5px}
+}
+</style>
 </head>
 <body>
 <div class="top"><div class="w"><span>THE BEEVERS + BELL RECORD</span><span>Kingsville · City of Maribyrnong</span></div></div>
@@ -1646,10 +1710,12 @@ section:first-of-type{padding-bottom:40px}
 <p>Asked about the consultation, the Director said Council did not agree there had been overwhelming opposition and described the report as showing:</p>
 <p class="quote">“about a 50/50 split”</p>
 <a class="moment-watch-button" href="https://www.youtube.com/watch?v=Cap4VfGyqHI&amp;t=750s" rel="noopener" target="_blank">▶ WATCH EXACT MOMENT · 12:30 ↗</a>
-<div class="quote-explainer">
-<div class="quote-explainer-label">WHAT THAT MEANS HERE</div>
-<p><b>Council’s published Phase 2 result was not an even split:</b> 52.7% did not support the toilet and 38.3% supported it.</p>
-<p class="unsure-note">9.0% were unsure. Consultation was advisory. The issue here is how the published result was described.</p>
+<div class="quote-explainer contrast-read">
+<div class="quote-explainer-label">THE CONTRAST</div>
+<div class="contrast-step"><span>COUNCIL’S PUBLISHED PHASE 2 RESULT</span><ul><li><b>52.7%</b> did not support</li><li><b>38.3%</b> supported</li></ul></div>
+<div class="contrast-gap"><b>14.4 percentage points apart.</b></div>
+<div class="contrast-step"><span>HOW IT WAS DESCRIBED IN MAY</span><p>“about a 50/50 split”</p></div>
+<p class="unsure-note">9.0% were unsure. Consultation was advisory. This record is comparing the public description with Council’s published figures.</p>
 </div>
 </div>
 </div>
@@ -1666,7 +1732,11 @@ section:first-of-type{padding-bottom:40px}
 <a class="moment-watch-button" href="https://www.youtube.com/watch?v=05x3GgMxzZI&amp;t=2384s" rel="noopener" target="_blank">▶ WATCH EXACT MOMENT · 39:44 ↗</a>
 </div>
 </div>
-<div class="key"><b>Council's published Phase 2 figures remained 52.7% did not support and 38.3% supported.</b><span class="key-foot">* 9.0% were unsure.</span></div>
+<div class="key july-contrast">
+<div class="contrast-step"><span>PUBLISHED FIGURES HAD NOT CHANGED</span><ul><li><b>52.7%</b> did not support</li><li><b>38.3%</b> supported</li></ul></div>
+<div class="contrast-step july-description"><span>HOW IT WAS DESCRIBED AGAIN IN JULY</span><p>“about 50/50 as we've reported previously”</p></div>
+<span class="key-foot">9.0% were unsure.</span>
+</div>
 <p><a class="src" href="https://www.yourcityyourvoice.com.au/beeversbell" rel="noopener" target="_blank">View Council's Beevers + Bell project page ↗</a></p>
 <div class="surveillance">
 <div class="micro">Council’s own toilet framework</div>
@@ -1830,6 +1900,6 @@ section:first-of-type{padding-bottom:40px}
 <footer style="padding:28px 30px 42px;max-width:1120px;margin:auto;font:12px/1.55 Arial,sans-serif;color:#625d53">
 This record is maintained against the available public sources. Where later source-checking changes an earlier understanding, the wording is corrected.
 </footer>
-<!-- v96: restore established May/July composition; retain v95 SEO signals -->
+<!-- v97: explicit vertical May/July result-vs-description contrast; retain v95 SEO signals -->
 <!-- cache refresh -->
 </body></html>
