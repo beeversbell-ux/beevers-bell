@@ -145,9 +145,48 @@ section:first-of-type h1{margin-bottom:24px}.orientation{margin-top:22px}
 #june .fred-questions{margin:20px 0 0;padding:18px 0;border-top:1px solid #ffffff55;border-bottom:1px solid #ffffff55}
 #june .fred-questions .label{color:var(--gold)}
 #june .fred-questions p{margin:8px 0 0!important;font-size:21px!important;line-height:1.35!important}
-#june .fred-links{display:flex;gap:10px;flex-wrap:wrap}
+#june .fred-links{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#june .fred-watch{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  padding:12px 14px 11px;
+  background:var(--gold);
+  border:1px solid var(--gold);
+  color:var(--ink);
+  text-decoration:none;
+  font:800 11px/1.2 Arial,sans-serif;
+  letter-spacing:.075em;
+  text-transform:uppercase;
+}
+#june .fred-watch:hover{text-decoration:underline;text-underline-offset:3px}
 #june .fred-watch.secondary{background:transparent;border-color:#ffffff88;color:#fff}
-@media(max-width:700px){#june .fred-focus{padding:20px 18px;margin:22px 0 26px}#june .fred-name{font-size:36px}#june .fred-meta{font-size:11px}#june .fred-focus p,#june .fred-turn{font-size:17px;line-height:1.5}#june .fred-context{font-size:16px!important}#june .fred-questions p{font-size:18px!important}#june .fred-links{display:grid;grid-template-columns:1fr}#june .fred-watch{margin-top:10px}}
+#june .june-return{
+  margin:22px 0 12px;
+  padding:18px 20px;
+  border-left:5px solid var(--gold);
+  background:rgba(0,0,0,.18);
+}
+#june .june-return span{
+  display:block;
+  margin-bottom:7px;
+  font:800 11px/1.1 Arial,sans-serif;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  color:var(--gold);
+}
+#june .june-return strong{
+  display:block;
+  font:700 25px/1.18 Georgia,serif;
+  color:#fff;
+}
+#june .june-return p{
+  margin:7px 0 0;
+  font:16px/1.45 Arial,sans-serif;
+  color:#f3efe8;
+}
+@media(max-width:700px){#june .fred-focus{padding:20px 18px;margin:22px 0 26px}#june .fred-name{font-size:36px}#june .fred-meta{font-size:11px}#june .fred-focus p,#june .fred-turn{font-size:17px;line-height:1.5}#june .fred-context{font-size:16px!important}#june .fred-questions p{font-size:18px!important}#june .fred-links{display:grid;grid-template-columns:1fr}#june .fred-watch{margin-top:10px;width:100%;justify-content:center;text-align:center}#june .june-return{margin-top:18px;padding:16px 17px}#june .june-return strong{font-size:22px}#june .june-return p{font-size:15px}}
 
 
 .bridge-section{padding-top:42px;padding-bottom:42px}
@@ -1273,7 +1312,7 @@ section:first-of-type{padding-bottom:40px}
 <!-- v78 cache refresh 2026-09-28T12:36+10:00 -->
 
 <style>
-/* v84: navy exact-moment CTA on cream; one divider below, no competing rule above */
+/* v85: preserve v84; tighten Fred questions → pause → councillor response flow */
 #july .chapter-tag{
   margin-bottom:22px;
   padding-top:16px;
@@ -1570,10 +1609,11 @@ section:first-of-type{padding-bottom:40px}
 <div class="fred-name">FRED MADDERN</div>
 <div class="fred-meta">Former Mayor of Footscray</div><div class="fred-context"><b>Independent reporting before June.</b> Star Weekly reporter Cade Lucas covered the Beevers + Bell dispute on 19 May, providing a contemporary independent record of the issue and Council’s response before Maddern’s 16 June questions.</div>
 <div class="fred-questions"><span class="label">16 JUNE · THREE QUESTIONS</span><div class="fred-chips"><span>TRAFFIC-COUNT TIMING</span><span>WALES STREET PLAYGROUND</span><span>WHAT COUNCILLORS KNEW BEFORE THE VOTE</span></div></div>
-<div class="fred-turn"><b>No councillor answered him in the moment.</b> The meeting moved to the next public question. Several minutes later, Cr Thomas asked to return to Beevers, and councillors responded.</div>
-<div class="fred-links"><a class="watch fred-watch" href="https://www.youtube.com/watch?v=8pUD8DG3CWE&amp;t=2347s" rel="noopener" target="_blank">▶ WATCH 16 JUNE PUBLIC QUESTION TIME</a><a class="watch fred-watch secondary" href="https://maribyrnonghobsonsbay.starweekly.com.au/news/beevers-and-bell-plans-blasted/" rel="noopener" target="_blank">READ MAY COVERAGE ↗</a></div>
+<div class="fred-turn"><b>After each question, councillors were invited to respond.</b> No councillor answered Fred in the moment. At 40:57, the meeting moved to the next public question.</div>
+<div class="fred-links"><a class="watch fred-watch" href="https://www.youtube.com/watch?v=8pUD8DG3CWE&amp;t=2347s" rel="noopener" target="_blank">▶ WATCH FRED’S THREE QUESTIONS · 39:07 ↗</a><a class="watch fred-watch secondary" href="https://maribyrnonghobsonsbay.starweekly.com.au/news/beevers-and-bell-plans-blasted/" rel="noopener" target="_blank">READ MAY COVERAGE ↗</a></div>
 </div>
-<div class="subsection-title"><span>COUNCILLOR RESPONSES</span><h3>What councillors said after Maddern’s questions.</h3></div><div class="people">
+<div class="june-return"><span>WHAT HAPPENED NEXT</span><strong>43:37 · Cr Thomas asked to return to the Beevers questions.</strong><p>The councillor responses began from there.</p></div>
+<div class="subsection-title"><span>COUNCILLOR RESPONSES</span><h3>The questions came back to the floor.</h3></div><div class="people">
 <a class="person source-tile" href="https://www.youtube.com/watch?v=8pUD8DG3CWE&amp;t=2617s" rel="noopener" target="_blank"><div class="who">Bernadette Thomas · seconded 21 April</div><blockquote>“I did read all of the information...”</blockquote><p>Thomas says she read the supplied material and decided the April decision was the best decision on balance.</p><span class="tile-watch">▶ WATCH EXACT MOMENT · 43:37 ↗</span></a>
 <a class="person key-response source-tile" href="https://www.youtube.com/watch?v=8pUD8DG3CWE&amp;t=2736s" rel="noopener" target="_blank"><div class="who">Pradeep Tiwari · voted 21 April</div><blockquote>“I might have asked some more questions.”</blockquote><p>Tiwari said he had not appreciated the final-week traffic-count timing and had not picked up the specific playground-reference issue raised in the question.</p><span class="tile-watch">▶ WATCH EXACT MOMENT · 45:36 ↗</span></a>
 <a class="person source-tile" href="https://www.youtube.com/watch?v=8pUD8DG3CWE&amp;t=2788s" rel="noopener" target="_blank"><div class="who">Susan Yengi · voted 21 April</div><h3 style="margin-top:14px">What she said</h3><p>Yengi said the timing of the assessment was something she did not think councillors had been across, and referred to councillors’ reliance on officer due diligence and trust.</p><span class="tile-watch">▶ WATCH EXACT MOMENT · 46:28 ↗</span></a>
