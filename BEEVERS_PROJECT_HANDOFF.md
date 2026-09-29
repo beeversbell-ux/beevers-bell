@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v82**
+- Current internal baseline: **v83**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V82_LOCKED_STATE.md**
-- Visible-content commit: **650aba66a1cd32b810cbe9e69105148bdfc835e2**
-- Visible-content deployment run **36516598119** completed successfully.
+- Latest lock file: **BEEVERS_V83_LOCKED_STATE.md**
+- Visible-content commit: **b1b2d49ddd998a0ea532e93e1c6b345ae4334c08**
+- Visible-content deployment run **36517359148** completed successfully.
 
-v82 carries forward the v81 baseline and adds direct exact-moment links to the two Patrick Jess “50/50” source tiles in the Beevers toilet record. No public-facing version number or build date should appear on the site.
+v83 carries forward the v82 exact-moment links and changes only their cream-section CTA styling so the action is immediately visible without becoming louder editorially. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -99,6 +99,22 @@ The whole tile remains clickable. Keep the treatment restrained:
 
 The purpose is source verification, not added argument.
 
+## v83 CTA refinement
+
+### Beevers toilet record exact-moment links
+The 19 May and 21 July source tiles keep the same verified timestamps and direct recording links:
+- 19 May Patrick Jess: **12:30**
+- 21 July Patrick Jess: **39:44**
+
+The cream-section CTA is now a compact dark-ink button with:
+- white **WATCH EXACT MOMENT**
+- gold timestamp + arrow
+- no giant YouTube treatment
+- no extra warning or accusatory language
+- no full-width button
+
+This is intentionally different from the June treatment because June already sits on a dark background where gold has sufficient contrast.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -124,7 +140,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V82_LOCKED_STATE.md**
+2. **BEEVERS_V83_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
