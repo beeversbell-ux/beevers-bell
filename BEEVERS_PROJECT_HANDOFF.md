@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v86**
+- Current internal baseline: **v87**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V86_LOCKED_STATE.md**
-- Visible-content commit: **7640ce99b9f1e801655321f6b9251e4f96113e79**
-- Visible-content deployment run **36519588230** completed successfully.
+- Latest lock file: **BEEVERS_V87_LOCKED_STATE.md**
+- Visible-content commit: **8d102fc55ce64509d2830c633a44c2154696e4fb**
+- Visible-content deployment run **36521595597** completed successfully.
 
-v86 carries forward v85 and makes each of Fred Maddern’s three existing question chips a direct timestamped link to the corresponding point in the 16 June Council recording. This uses plain HTML anchors only and does not change the section structure. No public-facing version number or build date should appear on the site.
+v87 carries forward v86 and simplifies only the cream-section exact-moment CTA styling in the Beevers toilet record: transparent background, thin neutral outline, dark ink text, and reduced visual weight. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -170,6 +170,20 @@ Each is a standard anchor to the official 16 June YouTube recording. No JavaScri
 
 Keep the existing gold **WATCH FRED’S THREE QUESTIONS · 39:07 ↗** button underneath as the full-sequence option.
 
+## v87 cream-section CTA simplification
+
+The 19 May and 21 July exact-moment links remain at **12:30** and **39:44** respectively.
+
+Their visual treatment is now intentionally quieter:
+- transparent background
+- thin neutral outline
+- dark ink text
+- slightly smaller padding/type
+- no filled navy block
+- no new accent colour
+
+This is a visual tidy-up only. The source links, timestamps and surrounding text are unchanged.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -195,7 +209,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V86_LOCKED_STATE.md**
+2. **BEEVERS_V87_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
