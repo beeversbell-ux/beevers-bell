@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v97**
+- Current internal baseline: **v98**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V97_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **5a1cabb46aa3b2f227cb19bfc2cbf0dce34dc56f**
-- SEO deployment run **36571392355** completed successfully.
+- Latest lock file: **BEEVERS_V98_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **8e5d63765afdd02efb4e66b785281643a0ec5004**
+- SEO deployment run **36572870712** completed successfully.
 
-v97 carries forward v96 and makes the published-result versus 50/50-description contrast explicit using a vertical sequence rather than side-by-side boxes. May now shows the published 52.7/38.3 figures, the 14.4-point gap, then the May description; July shows the unchanged figures followed by the repeated July description. The 9.0% unsure figure remains secondary. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
+v98 carries forward v97 and sharpens the May/July contrast without repeating the quote twice. May now makes 14.4 the single visual hinge between the published 52.7/38.3 figures and the 50/50 description immediately above; July states that the same 14.4-point gap remained when the 50/50 description was used again. The 9.0% unsure figure remains secondary and italic. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -368,6 +368,26 @@ July mirrors the logic:
 
 No side-by-side metric boxes. 9.0% unsure stays secondary. Standalone black exact-moment source buttons remain.
 
+## v98 sharpened May/July contrast
+
+May:
+- keeps the existing red-rule explainer
+- 52.7% / 38.3% stay as simple bullets
+- **14.4** is the single visual hinge
+- closes with: the description immediately above was “about a 50/50 split”
+- 9.0% unsure + advisory note are secondary and italic
+- removes the repeated “HOW IT WAS DESCRIBED IN MAY” block
+
+Between May and July:
+- now explicitly links the petition to the 14.4-point gap vs the 50/50 description
+
+July:
+- published figures had not changed
+- **The same 14.4-point gap remained**
+- the 50/50 description was used again in July
+- 9.0% unsure remains secondary and italic
+- avoids repeating the full July quote inside the evidence block
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -393,7 +413,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V97_LOCKED_STATE.md**
+2. **BEEVERS_V98_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
