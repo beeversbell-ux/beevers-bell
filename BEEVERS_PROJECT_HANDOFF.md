@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v84**
+- Current internal baseline: **v85**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V84_LOCKED_STATE.md**
-- Visible-content commit: **cdc2289842404e7f573de81df21c131e9fa652a3**
-- Visible-content deployment run **36517853030** completed successfully.
+- Latest lock file: **BEEVERS_V85_LOCKED_STATE.md**
+- Visible-content commit: **fdf5027e96521d21054ea0fab357054b7ca47225**
+- Visible-content deployment run **36519028029** completed successfully.
 
-v84 carries forward the v83 exact-moment links and refines only their cream-section CTA treatment: deep muted navy, white text, more breathing room, and no competing top rule. No public-facing version number or build date should appear on the site.
+v85 carries forward v84 and adds one surgical June-flow refinement: Fred Maddern’s three questions now have an exact-moment source CTA, the no-immediate-response sequence is stated precisely, and a compact transition shows Cr Thomas returning to the Beevers questions before the councillor response tiles. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -134,6 +134,31 @@ The cream-section CTA now uses:
 
 The June councillor tiles remain unchanged.
 
+## v85 June flow refinement
+
+### Fred Maddern → councillor responses
+The June chapter now presents the sequence as:
+- **39:07** Fred’s three questions begin
+- councillors are invited to respond
+- no councillor answers Fred in the moment
+- **40:57** the meeting moves to the next public question
+- **43:37** Cr Thomas asks to return to the Beevers questions
+- the councillor response tiles follow
+
+Fred’s direct video button now reads:
+**▶ WATCH FRED’S THREE QUESTIONS · 39:07 ↗**
+
+Between Fred’s card and the councillor tiles, keep the compact transition:
+**WHAT HAPPENED NEXT**
+**43:37 · Cr Thomas asked to return to the Beevers questions.**
+**The councillor responses began from there.**
+
+The response heading is:
+**COUNCILLOR RESPONSES**
+**The questions came back to the floor.**
+
+Do not add a separate video for the waiting interval. Do not add interpretive or accusatory language. The sequence itself is the point.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -159,7 +184,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V84_LOCKED_STATE.md**
+2. **BEEVERS_V85_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
