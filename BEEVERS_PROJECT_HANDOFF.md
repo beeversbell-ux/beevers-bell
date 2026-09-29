@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v85**
+- Current internal baseline: **v86**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V85_LOCKED_STATE.md**
-- Visible-content commit: **fdf5027e96521d21054ea0fab357054b7ca47225**
-- Visible-content deployment run **36519028029** completed successfully.
+- Latest lock file: **BEEVERS_V86_LOCKED_STATE.md**
+- Visible-content commit: **7640ce99b9f1e801655321f6b9251e4f96113e79**
+- Visible-content deployment run **36519588230** completed successfully.
 
-v85 carries forward v84 and adds one surgical June-flow refinement: Fred Maddern’s three questions now have an exact-moment source CTA, the no-immediate-response sequence is stated precisely, and a compact transition shows Cr Thomas returning to the Beevers questions before the councillor response tiles. No public-facing version number or build date should appear on the site.
+v86 carries forward v85 and makes each of Fred Maddern’s three existing question chips a direct timestamped link to the corresponding point in the 16 June Council recording. This uses plain HTML anchors only and does not change the section structure. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -159,6 +159,17 @@ The response heading is:
 
 Do not add a separate video for the waiting interval. Do not add interpretive or accusatory language. The sequence itself is the point.
 
+## v86 Fred question-chip links
+
+The three existing Fred question chips in the June chapter are now directly tappable:
+- **▶ TRAFFIC-COUNT TIMING** → 39:07
+- **▶ WALES STREET PLAYGROUND** → 39:30
+- **▶ WHAT COUNCILLORS KNEW BEFORE THE VOTE** → 40:20
+
+Each is a standard anchor to the official 16 June YouTube recording. No JavaScript, additional component or new explanatory copy is used.
+
+Keep the existing gold **WATCH FRED’S THREE QUESTIONS · 39:07 ↗** button underneath as the full-sequence option.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -184,7 +195,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V85_LOCKED_STATE.md**
+2. **BEEVERS_V86_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
