@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v96**
+- Current internal baseline: **v97**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V96_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **adbbcb2d8457a5e21a40ca5a16c52440b3615280**
-- SEO deployment run **36569656512** completed successfully.
+- Latest lock file: **BEEVERS_V97_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **5a1cabb46aa3b2f227cb19bfc2cbf0dce34dc56f**
+- SEO deployment run **36571392355** completed successfully.
 
-v96 carries forward v95 SEO/search signals and restores the established pre-v94 May/July Patrick Jess composition. The equal-weight 52.7/38.3/9.0 panels and full-width watch bar were removed; the 9.0% unsure figure is secondary again. The only retained visual improvement is a standalone black exact-moment source button for May and July. No public-facing version number or build date should appear on the site.
+v97 carries forward v96 and makes the published-result versus 50/50-description contrast explicit using a vertical sequence rather than side-by-side boxes. May now shows the published 52.7/38.3 figures, the 14.4-point gap, then the May description; July shows the unchanged figures followed by the repeated July description. The 9.0% unsure figure remains secondary. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -349,6 +349,25 @@ Retained improvement:
 
 Search Console live test passed: URL available to Google and page can be indexed.
 
+## v97 explicit published-result vs 50/50 contrast
+
+May now uses one vertical sequence inside the existing red-rule explainer:
+- **COUNCIL’S PUBLISHED PHASE 2 RESULT**
+  - 52.7% did not support
+  - 38.3% supported
+- **14.4 percentage points apart**
+- **HOW IT WAS DESCRIBED IN MAY**
+  - “about a 50/50 split”
+
+July mirrors the logic:
+- **PUBLISHED FIGURES HAD NOT CHANGED**
+  - 52.7% did not support
+  - 38.3% supported
+- **HOW IT WAS DESCRIBED AGAIN IN JULY**
+  - “about 50/50 as we've reported previously”
+
+No side-by-side metric boxes. 9.0% unsure stays secondary. Standalone black exact-moment source buttons remain.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -374,7 +393,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V96_LOCKED_STATE.md**
+2. **BEEVERS_V97_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
