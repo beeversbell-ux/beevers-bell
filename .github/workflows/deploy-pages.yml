@@ -58,9 +58,15 @@ jobs:
         shell: bash
         run: |
           cp index.html _site/index.html
+          cp robots.txt _site/robots.txt
+          cp sitemap.xml _site/sitemap.xml
           test -f _site/index.html
+          test -f _site/robots.txt
+          test -f _site/sitemap.xml
           grep -q 'HOW TO READ THIS RECORD' _site/index.html
           grep -q 'This website follows the story in three parts.' _site/index.html
+          grep -q 'https://beeversbell.com/' _site/robots.txt
+          grep -q '<loc>https://beeversbell.com/</loc>' _site/sitemap.xml
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
