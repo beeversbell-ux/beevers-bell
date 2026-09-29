@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v95**
+- Current internal baseline: **v96**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V95_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **9e2d53ee60b1159242b17ed69d3dac56dcd1411a**
-- SEO deployment run **36568390728** completed successfully.
+- Latest lock file: **BEEVERS_V96_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **adbbcb2d8457a5e21a40ca5a16c52440b3615280**
+- SEO deployment run **36569656512** completed successfully.
 
-v95 carries forward v94 and strengthens Elena Pereyra search relevance without changing the opening or main visual hierarchy. The HTML title and meta description now include Elena Pereyra in factual Beevers/Bell context, source card 02 identifies her as mover of the 21 April motion, the decision role has a stable #elena-pereyra fragment, and JSON-LD now uses an @graph with WebSite, WebPage and Person entities tied to the official Council councillor page. No public-facing version number or build date should appear on the site.
+v96 carries forward v95 SEO/search signals and restores the established pre-v94 May/July Patrick Jess composition. The equal-weight 52.7/38.3/9.0 panels and full-width watch bar were removed; the 9.0% unsure figure is secondary again. The only retained visual improvement is a standalone black exact-moment source button for May and July. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -329,6 +329,26 @@ Search-relevance changes:
 
 This is intended to improve exact-name relevance without bloating the visible opening or adding unsupported labels.
 
+## v96 May/July visual correction
+
+The v94 comparison redesign was too heavy. v96 restores the established May/July layout while preserving v95 SEO.
+
+Restored:
+- original May/July banners and speaker hierarchy
+- original May explainer
+- original July heading/result key
+- secondary treatment of 9.0% unsure
+
+Removed:
+- three-column equal-weight result panels
+- full-width watch bar
+- v94 comparison CSS
+
+Retained improvement:
+- standalone black exact-moment source buttons at 12:30 and 39:44
+
+Search Console live test passed: URL available to Google and page can be indexed.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -354,7 +374,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V95_LOCKED_STATE.md**
+2. **BEEVERS_V96_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
