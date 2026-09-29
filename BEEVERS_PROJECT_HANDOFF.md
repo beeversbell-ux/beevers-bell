@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v83**
+- Current internal baseline: **v84**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V83_LOCKED_STATE.md**
-- Visible-content commit: **b1b2d49ddd998a0ea532e93e1c6b345ae4334c08**
-- Visible-content deployment run **36517359148** completed successfully.
+- Latest lock file: **BEEVERS_V84_LOCKED_STATE.md**
+- Visible-content commit: **cdc2289842404e7f573de81df21c131e9fa652a3**
+- Visible-content deployment run **36517853030** completed successfully.
 
-v83 carries forward the v82 exact-moment links and changes only their cream-section CTA styling so the action is immediately visible without becoming louder editorially. No public-facing version number or build date should appear on the site.
+v84 carries forward the v83 exact-moment links and refines only their cream-section CTA treatment: deep muted navy, white text, more breathing room, and no competing top rule. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -115,6 +115,25 @@ The cream-section CTA is now a compact dark-ink button with:
 
 This is intentionally different from the June treatment because June already sits on a dark background where gold has sufficient contrast.
 
+## v84 CTA refinement
+
+### Beevers toilet record exact-moment links
+The 19 May and 21 July direct source links remain:
+- 19 May Patrick Jess: **12:30**
+- 21 July Patrick Jess: **39:44**
+
+The cream-section CTA now uses:
+- deep muted navy **#263b4a**
+- white label and white timestamp/arrow
+- compact inline button
+- no gold
+- no red
+- no CTA top rule
+- more breathing room above
+- the section divider below remains the only transition rule
+
+The June councillor tiles remain unchanged.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -140,7 +159,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V83_LOCKED_STATE.md**
+2. **BEEVERS_V84_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
