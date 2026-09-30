@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v100**
+- Current internal baseline: **v101**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V100_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **6d16c31d7e9f2aea222e237f2c9f7bc5c2403f8a**
-- SEO deployment run **36649035128** completed successfully.
+- Latest lock file: **BEEVERS_V101_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **3e4a3c5c9db22c47211600f4dc4e6aad643c1f18**
+- SEO deployment run **36712175942** completed successfully.
 
-v100 carries forward v99 and adds transparent authorship signals for Chris Walton through standard metadata, structured data and a quiet footer credit. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages were added. No public-facing version number or build date should appear on the site.
+v101 carries forward v100 and neutralises the homepage search-result framing. The title is now **The Beevers + Bell Record | Kingsville, Maribyrnong** and the description describes the sourced resident record rather than leading with a councillor's name. Elena Pereyra remains a documented mention in the visible record and structured data, while Chris Walton authorship remains transparent. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -408,6 +408,28 @@ The main page now identifies **Chris Walton** as the creator and maintainer of T
 
 Keep this transparent. Do not add hidden keywords, cloaking, fake backlinks, doorway pages or paid placements disguised as organic material.
 
+## v101 search-result framing
+
+The homepage search presentation was deliberately toned down after the Google result appeared too targeted.
+
+Use:
+**The Beevers + Bell Record | Kingsville, Maribyrnong**
+
+Meta description:
+**A sourced resident record of the Beevers and Bell Reserve consultation, Council decisions and subsequent public questions in Kingsville, City of Maribyrnong.**
+
+Apply the same neutral framing to Open Graph, Twitter metadata and the WebPage structured-data name/description.
+
+Structured-data subjects:
+- `about`: Maribyrnong City Council, Beevers Reserve, Bell Reserve, Coronation Street
+- `mentions`: Elena Pereyra, Bernadette Thomas, Your City Your Voice, Pick My Park, Victorian Government
+
+Do not put Elena Pereyra back into the homepage title or lead meta description unless explicitly requested. Her name remains naturally discoverable through the documented body content and entity markup.
+
+Chris Walton authorship signals remain in place.
+
+Google may continue to display an older cached title/snippet until recrawl.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -433,7 +455,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V100_LOCKED_STATE.md**
+2. **BEEVERS_V101_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
