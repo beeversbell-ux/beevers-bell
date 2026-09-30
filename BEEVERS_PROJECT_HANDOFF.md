@@ -4,15 +4,15 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v99**
+- Current internal baseline: **v100**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V99_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **ccc08ab087f7ae942bda8beeeaeb5df4d5350145**
-- SEO deployment run **36573697704** completed successfully.
+- Latest lock file: **BEEVERS_V100_LOCKED_STATE.md**
+- Visible-content / SEO deployment commit: **6d16c31d7e9f2aea222e237f2c9f7bc5c2403f8a**
+- SEO deployment run **36649035128** completed successfully.
 
-v99 carries forward v98 and finishes the May/July handoff. A deliberate gap follows each exact-moment source button before the contrast/evidence block, red vertical rules are tightly scoped to the content they frame, and the Between May and July bridge now makes the chronology explicit: by June the discrepancy was formally before Council; the petition contrasted the published 52.7/38.3 figures with the 50/50 description; Council formally received it; and the 50/50 description was used again in July. v95 Elena Pereyra SEO/search signals remain intact. No public-facing version number or build date should appear on the site.
+v100 carries forward v99 and adds transparent authorship signals for Chris Walton through standard metadata, structured data and a quiet footer credit. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages were added. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -398,6 +398,16 @@ July:
 
 This is intentionally factual and chronological. It does not use “lied” or imply that a particular officer personally read the petition.
 
+## v100 transparent authorship and organic discoverability
+
+The main page now identifies **Chris Walton** as the creator and maintainer of The Beevers + Bell Record through:
+- standard author metadata
+- structured Person authorship
+- a factual external identity reference to the public Change.org update
+- a quiet visible footer credit
+
+Keep this transparent. Do not add hidden keywords, cloaking, fake backlinks, doorway pages or paid placements disguised as organic material.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -423,7 +433,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V99_LOCKED_STATE.md**
+2. **BEEVERS_V100_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
