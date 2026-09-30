@@ -4,15 +4,16 @@ Locked: 29 September 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v101**
+- Current internal baseline: **v102**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V101_LOCKED_STATE.md**
-- Visible-content / SEO deployment commit: **3e4a3c5c9db22c47211600f4dc4e6aad643c1f18**
-- SEO deployment run **36712175942** completed successfully.
+- Latest lock file: **BEEVERS_V102_LOCKED_STATE.md**
+- Index crawl-signal commit: **c15b521cf19c537d5294944e8db4857eba7f5b0d**
+- Sitemap commit: **052fbdfc15f5c4f3ce7fe3887c80ed509871b55a**
+- Latest deployment run **36762635907** completed successfully.
 
-v101 carries forward v100 and neutralises the homepage search-result framing. The title is now **The Beevers + Bell Record | Kingsville, Maribyrnong** and the description describes the sourced resident record rather than leading with a councillor's name. Elena Pereyra remains a documented mention in the visible record and structured data, while Chris Walton authorship remains transparent. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
+v102 carries forward v101 and refreshes crawl signals after the neutral search-result metadata change. The title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. WebPage dateModified and sitemap lastmod are now 2026-10-01. Google may continue showing the older cached title/snippet until recrawl and reprocessing. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
 
 ## Most recent visible refinement
 
@@ -430,6 +431,22 @@ Chris Walton authorship signals remain in place.
 
 Google may continue to display an older cached title/snippet until recrawl.
 
+## v102 crawl refresh
+
+The screenshot taken after v101 still showed Google's older cached title/snippet:
+**Beevers & Bell Kingsville | Elena Pereyra, Maribyrnong Council**
+
+The live homepage itself is already neutral:
+**The Beevers + Bell Record | Kingsville, Maribyrnong**
+
+To strengthen ordinary recrawl signals without paid promotion:
+- WebPage `dateModified` updated to **2026-10-01**
+- sitemap `lastmod` updated to **2026-10-01**
+- cache-bust marker refreshed
+- robots remains open and points to the sitemap
+
+Do not interpret the old Google snippet as the current live metadata. It is a stale search presentation until Google reprocesses the page.
+
 ## Petition website insert
 
 The Change.org petition predates the website. The agreed top insert is:
@@ -455,7 +472,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V101_LOCKED_STATE.md**
+2. **BEEVERS_V102_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
