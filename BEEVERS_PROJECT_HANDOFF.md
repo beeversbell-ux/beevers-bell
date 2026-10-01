@@ -1,19 +1,33 @@
 # Beevers + Bell Project Handoff
 
-Locked: 29 September 2026, Melbourne time.
+Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v102**
+- Current internal baseline: **v103**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V102_LOCKED_STATE.md**
-- Index crawl-signal commit: **c15b521cf19c537d5294944e8db4857eba7f5b0d**
-- Sitemap commit: **052fbdfc15f5c4f3ce7fe3887c80ed509871b55a**
-- Latest deployment run **36762635907** completed successfully.
+- Latest lock file: **BEEVERS_V103_LOCKED_STATE.md**
+- Visible-content commit: **b982033e5bcc35303623e22bb930cfb750d239c4**
+- Root content SHA: **ffb1e8efb8156b58d2064561adb1e2d0d4ed6e45**
+- Latest deployment run **36865983904** completed successfully.
 
-v102 carries forward v101 and refreshes crawl signals after the neutral search-result metadata change. The title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. WebPage dateModified and sitemap lastmod are now 2026-10-01. Google may continue showing the older cached title/snippet until recrawl and reprocessing. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
+v103 carries forward v102 and completes a source-link audit. The June Fred Maddern secondary CTA now opens the official 19 May Council meeting record rather than the Star Weekly article. The nearby-resident cards now open the direct Phase 2 Engagement Summary, the Beevers toilet status card opens Council's 22 April update, and the misleading 'project FAQ' label now says 'project page'. Verified exact-moment video links were not changed. The homepage title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
+
+## v103 source-link audit
+
+A full hyperlink audit was performed across the live root. The page contains 74 links including repeated destinations and internal chronology anchors.
+
+Keep these v103 corrections:
+- Fred June secondary CTA: **VIEW 19 MAY COUNCIL RECORD ↗** → official 19 May 2026 Council meeting page.
+- Star Weekly remains linked only where explicitly identified as independent media coverage in Sources & Evidence.
+- Beevers Wales Street nearby-resident card → direct Phase 2 Engagement Summary Report.
+- Coronation Street nearby-resident card → direct Phase 2 Engagement Summary Report.
+- Beevers toilet current-status card → Council's 22 April Beevers + Bell update.
+- **View Council project FAQ** changed to **View Council project page**.
+- Do not alter the verified YouTube exact-moment links unless new evidence shows a timestamp is wrong.
+- All internal chronology anchors currently resolve to existing section IDs.
 
 ## Most recent visible refinement
 
@@ -472,7 +486,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V102_LOCKED_STATE.md**
+2. **BEEVERS_V103_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
