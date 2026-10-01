@@ -4,16 +4,18 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v103**
+- Current internal baseline: **v104**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V103_LOCKED_STATE.md**
-- Visible-content commit: **b982033e5bcc35303623e22bb930cfb750d239c4**
+- Latest lock file: **BEEVERS_V104_LOCKED_STATE.md**
+- Visible-content commit: **6d6352217b282929bdcd08d8b2edfe53e8d74fff**
 - Root content SHA: **ffb1e8efb8156b58d2064561adb1e2d0d4ed6e45**
 - Latest deployment run **36865983904** completed successfully.
 
-v103 carries forward v102 and completes a source-link audit. The June Fred Maddern secondary CTA now opens the official 19 May Council meeting record rather than the Star Weekly article. The nearby-resident cards now open the direct Phase 2 Engagement Summary, the Beevers toilet status card opens Council's 22 April update, and the misleading 'project FAQ' label now says 'project page'. Verified exact-moment video links were not changed. The homepage title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
+v104 carries forward v103 and makes one narrow video-context refinement: Elena Pereyra’s 16 June response now starts at 44:39 rather than 44:58 so the recorded handover into her response is preserved. Thomas remains at 43:37, Tiwari at 45:36 and Yengi at 46:28. All other verified YouTube exact-moment links remain unchanged. v103’s source-link audit and corrections remain in force.
+
+v103 carried forward v102 and completed a source-link audit. The June Fred Maddern secondary CTA now opens the official 19 May Council meeting record rather than the Star Weekly article. The nearby-resident cards now open the direct Phase 2 Engagement Summary, the Beevers toilet status card opens Council's 22 April update, and the misleading 'project FAQ' label now says 'project page'. Verified exact-moment video links were not changed. The homepage title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
 
 ## v103 source-link audit
 
@@ -486,7 +488,7 @@ Formatting:
 
 Future chats should start from:
 1. current root **index.html**
-2. **BEEVERS_V103_LOCKED_STATE.md**
+2. **BEEVERS_V104_LOCKED_STATE.md**
 3. this handoff file
 
 Do not use old local v70-v72 preview files as authoritative.
