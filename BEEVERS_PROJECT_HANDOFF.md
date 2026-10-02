@@ -4,16 +4,16 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v105**
+- Current internal baseline: **v106**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V105_LOCKED_STATE.md**
-- Visible-content commit: **48d1f550d8586386d579451973e4508302aa5eeb**
-- Root content SHA: **763177eadff980070e40dba0c79169aac6b3ea64**
-- Latest deployment run **36965937116** completed successfully.
+- Latest lock file: **BEEVERS_V106_LOCKED_STATE.md**
+- Visible-content commit: **ca0928c63fb4276ace164e74235c89b1ed1272d1**
+- Root content SHA: **fccfefef0e3e6a4bfa62e6dd3068e6c61c3fc5b7**
+- Latest deployment run **36968974263** completed successfully.
 
-v105 carries forward v104 and makes one tiny optical correction to the 38.3% supported hero figure in the Beevers toilet Phase 2 result. Only the digit 8 is widened slightly so it reads less pinched at display size. No other percentage, typography, spacing, content, source link, timestamp, SEO or layout changed. v104’s June Elena timestamp refinement and v103’s source-link audit remain in force.
+v106 fully reverts the v105 numeral experiment. The public index.html is byte-for-byte identical to the v104 public site. The character-level transform applied to the 8 in 38.3% has been removed. No other public HTML, copy, layout, link, timestamp, SEO or metadata changes from v105 remain. v104’s June Elena timestamp refinement and v103’s source-link audit remain in force.
 
 v103 carried forward v102 and completed a source-link audit. The June Fred Maddern secondary CTA now opens the official 19 May Council meeting record rather than the Star Weekly article. The nearby-resident cards now open the direct Phase 2 Engagement Summary, the Beevers toilet status card opens Council's 22 April update, and the misleading 'project FAQ' label now says 'project page'. Verified exact-moment video links were not changed. The homepage title remains **The Beevers + Bell Record | Kingsville, Maribyrnong**. No paid advertising, hidden text, cloaking, fake backlinks or doorway pages are used. No public-facing version number or build date should appear on the site.
 
@@ -31,11 +31,15 @@ Keep these v103 corrections:
 - Do not alter the verified YouTube exact-moment links unless new evidence shows a timestamp is wrong.
 - All internal chronology anchors currently resolve to existing section IDs.
 
-## v105 numeral refinement
+## v106 rollback audit
 
-The Beevers toilet Phase 2 hero figure keeps the same overall design.
+The v105 38.3% numeral experiment was fully reverted.
 
-Only the digit **8** in **38.3% supported** receives a tiny horizontal optical correction so it reads less pinched. No other visible element changed.
+A direct comparison confirms the current public index is exactly identical to the v104 public index:
+- current SHA: **fccfefef0e3e6a4bfa62e6dd3068e6c61c3fc5b7**
+- v104 SHA: **fccfefef0e3e6a4bfa62e6dd3068e6c61c3fc5b7**
+
+No other public-site changes were introduced by v105. The only other post-v104 changes were internal lock/handoff documentation.
 
 ## Most recent visible refinement
 
