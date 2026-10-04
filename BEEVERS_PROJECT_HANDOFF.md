@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v107**
+- Current internal baseline: **v108**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V107_LOCKED_STATE.md**
-- Source-change commit: **093f489616a40a05a1781308bb326dd98eb924cf**
-- Root content SHA: **99d42d0aa2b9cb8dd873b25e1e2376c694cf6167**
+- Latest lock file: **BEEVERS_V108_LOCKED_STATE.md**
+- Source-change commit: **ca7f815173cf3d57ce3f35d9245114b955437ce7**
+- Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v108 adds a focused, indexable **21 April 2026 Council decision** record at https://beeversbell.com/decision/21-april-2026/. This is an event page, not an Elena Pereyra profile page. Its URL and H1 do not contain Elena's name. It records the mover, seconder, unanimous vote, what the April decision did and did not do, the four June councillor responses in sequence, exact-moment video links and primary Council sources. The homepage adds one neutral internal link labelled **21 April decision record →** in the existing April source row, and the new URL is in sitemap.xml. This structure was chosen after comparing pages that Google retrieves for Elena Pereyra even when she is only one person in a broader event or list. See **BEEVERS_V108_LOCKED_STATE.md** for validation and rollback.
 
 v107 adds a deliberately subtle search-entity experiment while preserving the visible page. The existing 21 April mover/seconder rows use cleaner semantic article/heading markup for both Elena Pereyra and Bernadette Thomas, with CSS preserving the prior appearance. Their Person structured data now uses precise councillor titles, Maribyrnong City Council membership and exact identity profile references. README.md now neutrally documents the public source repository. WebPage dateModified and sitemap lastmod are 2026-10-05. A direct comparison confirmed normalized visible homepage text is identical to v106 and all href values are unchanged. No Elena title, hero, standalone page, extra visible wording or keyword stuffing was added. See **BEEVERS_V107_LOCKED_STATE.md** for rollback instructions.
 
