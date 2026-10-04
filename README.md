@@ -9,3 +9,5 @@ On 21 April 2026, Maribyrnong City Council endorsed the Beevers Reserve and Bell
 The published website links claims to Council reports, meeting records, consultation documents and meeting recordings.
 
 Live record: https://beeversbell.com
+
+21 April 2026 Council decision record: https://beeversbell.com/decision/21-april-2026/
