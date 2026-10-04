@@ -4,14 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v106**
+- Current internal baseline: **v107**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V106_LOCKED_STATE.md**
-- Visible-content commit: **ca0928c63fb4276ace164e74235c89b1ed1272d1**
-- Root content SHA: **fccfefef0e3e6a4bfa62e6dd3068e6c61c3fc5b7**
-- Latest deployment run **36968974263** completed successfully.
+- Latest lock file: **BEEVERS_V107_LOCKED_STATE.md**
+- Source-change commit: **093f489616a40a05a1781308bb326dd98eb924cf**
+- Root content SHA: **99d42d0aa2b9cb8dd873b25e1e2376c694cf6167**
+
+v107 adds a deliberately subtle search-entity experiment while preserving the visible page. The existing 21 April mover/seconder rows use cleaner semantic article/heading markup for both Elena Pereyra and Bernadette Thomas, with CSS preserving the prior appearance. Their Person structured data now uses precise councillor titles, Maribyrnong City Council membership and exact identity profile references. README.md now neutrally documents the public source repository. WebPage dateModified and sitemap lastmod are 2026-10-05. A direct comparison confirmed normalized visible homepage text is identical to v106 and all href values are unchanged. No Elena title, hero, standalone page, extra visible wording or keyword stuffing was added. See **BEEVERS_V107_LOCKED_STATE.md** for rollback instructions.
 
 v106 fully reverts the v105 numeral experiment. The public index.html is byte-for-byte identical to the v104 public site. The character-level transform applied to the 8 in 38.3% has been removed. No other public HTML, copy, layout, link, timestamp, SEO or metadata changes from v105 remain. v104’s June Elena timestamp refinement and v103’s source-link audit remain in force.
 
@@ -102,7 +103,7 @@ Keep this visual reading order:
 ### June councillor tiles
 The four councillor response tiles remain fully clickable and now include permanent mobile-visible exact-moment cues:
 - Thomas: 43:37
-- Pereyra: 44:58
+- Pereyra: 44:39
 - Tiwari: 45:36
 - Yengi: 46:28
 
