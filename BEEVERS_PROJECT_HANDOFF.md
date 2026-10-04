@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v108**
+- Current internal baseline: **v109**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V108_LOCKED_STATE.md**
-- Source-change commit: **ca7f815173cf3d57ce3f35d9245114b955437ce7**
+- Latest lock file: **BEEVERS_V109_LOCKED_STATE.md**
+- Source-change commit: **737cde18b0d6661278f0446311428fca56c5ed15**
 - Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v109 completes the focused retrieval setup. The 21 April decision page's opening summary now naturally names Cr Elena Pereyra as mover and Cr Bernadette Thomas as seconder while keeping the URL, title and H1 event-focused. The public GitHub README now links directly to the decision record. No homepage hero/title changes or person-targeted page were added. The remaining external bridge is the opening paragraph of the existing Change.org update. See **BEEVERS_V109_LOCKED_STATE.md** for validation and rollback.
 
 v108 adds a focused, indexable **21 April 2026 Council decision** record at https://beeversbell.com/decision/21-april-2026/. This is an event page, not an Elena Pereyra profile page. Its URL and H1 do not contain Elena's name. It records the mover, seconder, unanimous vote, what the April decision did and did not do, the four June councillor responses in sequence, exact-moment video links and primary Council sources. The homepage adds one neutral internal link labelled **21 April decision record →** in the existing April source row, and the new URL is in sitemap.xml. This structure was chosen after comparing pages that Google retrieves for Elena Pereyra even when she is only one person in a broader event or list. See **BEEVERS_V108_LOCKED_STATE.md** for validation and rollback.
 
