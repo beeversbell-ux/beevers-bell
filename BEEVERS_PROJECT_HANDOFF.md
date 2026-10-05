@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v114**
+- Current internal baseline: **v115**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V114_LOCKED_STATE.md**
-- Source-change commit: **62c5d3fba6d19a3bc024c0783e6648c35bf7ebea**
+- Latest lock file: **BEEVERS_V115_LOCKED_STATE.md**
+- Workflow hardening commit: **b4d6979517bcd83c3086de5aed7f61022a5639c1**
 - Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v115 hardens deployment and indexing verification. The workflow now validates that every sitemap URL maps to a file in the Pages artifact, then fetches the live homepage, decision page, robots.txt and sitemap after deployment and checks expected content. Successful run 37280878370 confirmed all sitemap URLs exist in the artifact and all live production routes resolve. Search Console direct inspection now reports both homepage and the 21 April decision page as PASS, Submitted and indexed, crawl allowed, indexing allowed and fetched successfully. Latest crawls are 5 Oct 2026 07:50:37Z for the homepage and 07:48:26Z for the decision page. A dedicated indexing tracker now watches both URLs and currently reports 2 indexed, 0 errors, 0 warnings. Sitemap was resubmitted after the deployment fix. See **BEEVERS_V115_LOCKED_STATE.md**.
 
 v114 fixes a GitHub Pages deployment bug that caused the focused 21 April decision page to return a live 404 even though the file existed in the repository. The Pages workflow previously copied only the root index.html, robots.txt and sitemap.xml into the deployment artifact. It now also copies decision/21-april-2026/index.html, validates its presence and validates the sitemap entry. Deployment run 37278998075 completed successfully. No public copy or search wording changed. Search Console should now re-run Test Live URL before Request Indexing. See **BEEVERS_V114_LOCKED_STATE.md**.
 
