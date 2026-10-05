@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v112**
+- Current internal baseline: **v113**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V112_LOCKED_STATE.md**
-- Source-change commit: **25431d1809180df78c07a3dc7a6006175067299e**
+- Latest lock file: **BEEVERS_V113_LOCKED_STATE.md**
+- Source-change commit: **62c5d3fba6d19a3bc024c0783e6648c35bf7ebea**
 - Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v113 restores one restrained independent-media reference after clarifying the distinction between the Star Weekly journalist article and the separate Westsider opinion piece. Star Weekly's **“Beevers and Bell plans blasted”** by Cade Lucas (19 May 2026) appears only as a small Fred-context line and Source card 05. The Westsider piece **“Kingsville residents say ‘no thanks’ but Council approves it anyway”** remains excluded. See **BEEVERS_V113_LOCKED_STATE.md**.
 
 v112 removes secondary-media references from the public evidence record. The public site no longer contains or links Star Weekly, Cade Lucas, “Beevers and Bell plans blasted”, The Westsider, or “Kingsville residents say ‘no thanks’ but Council approves it anyway”. The Fred Maddern section no longer contains an independent-media paragraph, and the Sources & Evidence cards are renumbered cleanly 01 through 13. All v109 search/indexing architecture remains intact. See **BEEVERS_V112_LOCKED_STATE.md**.
 
