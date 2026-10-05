@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v113**
+- Current internal baseline: **v114**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V113_LOCKED_STATE.md**
+- Latest lock file: **BEEVERS_V114_LOCKED_STATE.md**
 - Source-change commit: **62c5d3fba6d19a3bc024c0783e6648c35bf7ebea**
 - Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v114 fixes a GitHub Pages deployment bug that caused the focused 21 April decision page to return a live 404 even though the file existed in the repository. The Pages workflow previously copied only the root index.html, robots.txt and sitemap.xml into the deployment artifact. It now also copies decision/21-april-2026/index.html, validates its presence and validates the sitemap entry. Deployment run 37278998075 completed successfully. No public copy or search wording changed. Search Console should now re-run Test Live URL before Request Indexing. See **BEEVERS_V114_LOCKED_STATE.md**.
 
 v113 retains one restrained Star Weekly credibility cue without displaying the article headline. In Fred Maddern's June section, the site states that Star Weekly journalist Cade Lucas reported on 19 May that Council had unanimously endorsed the plans despite opposition to the two disputed elements and quoted Fred Maddern, with a small **Read the Star Weekly report ↗** link. Sources & Evidence includes a modest **Star Weekly · 19 May 2026** card naming Cade Lucas. The Star Weekly headline **“Beevers and Bell plans blasted”** is not displayed, and the separate Westsider opinion piece **“Kingsville residents say ‘no thanks’ but Council approves it anyway”** is not included or linked. All v109 search/indexing architecture remains intact. See **BEEVERS_V112_LOCKED_STATE.md**.
 
