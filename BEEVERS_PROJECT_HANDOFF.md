@@ -4,13 +4,15 @@ Locked: 1 October 2026, Melbourne time.
 
 ## Authoritative website state
 
-- Current internal baseline: **v109**
+- Current internal baseline: **v110**
 - Repository: **beeversbell-ux/beevers-bell**
 - Branch: **main**
 - Live root: **index.html**
-- Latest lock file: **BEEVERS_V109_LOCKED_STATE.md**
-- Source-change commit: **737cde18b0d6661278f0446311428fca56c5ed15**
+- Latest lock file: **BEEVERS_V110_LOCKED_STATE.md**
+- Source-change commit: **030b1cae23ba866b97a52aebda9b85f789f399f9**
 - Root content SHA: **ff6662e7bad7bcdd22d884faa8c1ed67ac53a55c**
+
+v110 names the existing independent Star Weekly coverage explicitly in the Fred June section and Sources & Evidence. The article is **“Beevers and Bell plans blasted”** by Cade Lucas, published 19 May 2026. The site now states that the article quoted Fred Maddern and recorded Council's response before the June meeting. Source card 05 shows the full headline, date and byline, while the official 19 May Council-record link in Fred's action row remains unchanged. See **BEEVERS_V110_LOCKED_STATE.md**.
 
 v109 completes the focused retrieval setup. The 21 April decision page's opening summary now naturally names Cr Elena Pereyra as mover and Cr Bernadette Thomas as seconder while keeping the URL, title and H1 event-focused. The public GitHub README now links directly to the decision record. No homepage hero/title changes or person-targeted page were added. The remaining external bridge is the opening paragraph of the existing Change.org update. See **BEEVERS_V109_LOCKED_STATE.md** for validation and rollback.
 
