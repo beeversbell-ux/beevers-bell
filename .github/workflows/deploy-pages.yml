@@ -73,6 +73,36 @@ jobs:
           grep -q '<loc>https://beeversbell.com/</loc>' _site/sitemap.xml
           grep -q '<loc>https://beeversbell.com/decision/21-april-2026/</loc>' _site/sitemap.xml
 
+      - name: Validate every sitemap URL exists in artifact
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          import xml.etree.ElementTree as ET
+          from urllib.parse import urlparse
+
+          root = ET.parse("_site/sitemap.xml").getroot()
+          ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          missing = []
+          for loc in root.findall("s:url/s:loc", ns):
+              url = loc.text.strip()
+              path = urlparse(url).path
+              rel = path.lstrip("/")
+              if not rel:
+                  target = "_site/index.html"
+              elif path.endswith("/"):
+                  target = os.path.join("_site", rel, "index.html")
+              else:
+                  target = os.path.join("_site", rel)
+              if not os.path.isfile(target):
+                  missing.append((url, target))
+          if missing:
+              for url, target in missing:
+                  print(f"MISSING: {url} -> {target}")
+              raise SystemExit(1)
+          print("All sitemap URLs resolve to files in the Pages artifact.")
+          PY
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
@@ -86,3 +116,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify live production routes
+        shell: bash
+        run: |
+          set -euo pipefail
+          for url in             "https://beeversbell.com/"             "https://beeversbell.com/decision/21-april-2026/"             "https://beeversbell.com/robots.txt"             "https://beeversbell.com/sitemap.xml"
+          do
+            echo "Checking $url"
+            curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors "$url" >/tmp/live-check
+          done
+          curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors "https://beeversbell.com/" | grep -q 'HOW TO READ THIS RECORD'
+          curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors "https://beeversbell.com/decision/21-april-2026/" | grep -q '21 April 2026 Council decision'
+          echo "Live production routes verified."
