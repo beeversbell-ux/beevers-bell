@@ -1,3 +1,4 @@
+# Fresh deployment run after GitHub Pages artifact retry collision.
 name: Deploy Beevers + Bell site
 
 on:
