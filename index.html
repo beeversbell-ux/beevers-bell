@@ -1159,6 +1159,20 @@ section:first-of-type h1{margin-bottom:24px}.orientation{margin-top:22px}
 }
 
 /* v101: neutralise search-result framing while preserving organic authorship and entity signals */
+
+/* Reader-first summary before the detailed chronology */
+.front-brief{max-width:980px;margin:0 0 25px;padding:22px 26px 20px;border-top:5px solid var(--red);border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);border-left:1px solid var(--rule);background:var(--paper)}
+.front-brief-ey{font:800 11px/1.4 Arial,sans-serif;color:var(--red);letter-spacing:.12em}
+.front-brief-hook{margin:9px 0 13px;font:400 clamp(25px,3vw,34px)/1.16 Georgia,serif;letter-spacing:-.025em;color:var(--ink)}
+.front-brief-facts{margin:0;font:16px/1.52 Arial,sans-serif;color:#34302a;max-width:850px}
+.front-brief-actions{display:flex;flex-wrap:wrap;gap:9px;margin:18px 0 12px}
+.front-brief-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:11px 14px;text-decoration:none;font:800 12px/1.35 Arial,sans-serif;letter-spacing:.025em}
+.front-brief-petition{background:var(--red);color:#fff!important;border:1px solid var(--red)}
+.front-brief-record{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.front-brief-actions a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.front-brief-note{border-top:1px solid var(--rule);padding-top:11px;margin:0;font:13px/1.5 Arial,sans-serif;color:#5e5549}
+@media(max-width:760px){.front-brief{padding:18px 18px 17px;margin-bottom:19px}.front-brief-hook{font-size:27px}.front-brief-facts{font-size:15.5px}.front-brief-actions{display:grid;grid-template-columns:1fr}.front-brief-actions a{width:100%;text-align:center}.front-brief-note{font-size:12.5px}}
+
 </style>
 <style>
 /* v13: one visual grammar, faster scanning */
@@ -1662,6 +1676,16 @@ section:first-of-type{padding-bottom:40px}
 <section><div class="w">
 <div class="ey resident-kicker">A RESIDENT-LED COMMUNITY RECORD · KINGSVILLE</div>
 <h1>Beevers<br/>+ Bell</h1>
+<div class="front-brief" aria-label="Council decision and community petition">
+  <div class="front-brief-ey">THE SHORT VERSION · KINGSVILLE</div>
+  <p class="front-brief-hook">Nearly 400 people have signed a petition opposing these changes.</p>
+  <p class="front-brief-facts"><strong>Cr Elena Pereyra, the elected Wattle Ward councillor representing Kingsville, moved the 21 April 2026 Council motion</strong> endorsing the Beevers and Bell Reserve concept plans. The disputed elements were a toilet in a small residential park and a proposed partial Coronation Street closure, with concerns about visibility, local traffic and children's safety.</p>
+  <div class="front-brief-actions">
+    <a class="front-brief-petition" href="https://www.change.org/p/stop-the-coronation-street-closure-and-beevers-reserve-toilet-kingsville" rel="noopener" target="_blank">Read the Change.org petition ↗</a>
+    <a class="front-brief-record" href="/decision/21-april-2026/">Read the Council decision record →</a>
+  </div>
+  <p class="front-brief-note">52.7% of consultation respondents did not support the Beevers Reserve toilet. All seven councillors present endorsed both concepts. The road closure still requires separate statutory approval.</p>
+</div>
 <div class="resident-intro">
 <div class="resident-intro-label">HOW THE “YOUR CITY, YOUR VOICE” CONSULTATION UNFOLDED</div>
 <p class="resident-lede"><b>Prepared as a resident-led community record for Kingsville,</b> this site follows two proposals that became the focus of sustained local concern: <b>a permanent public toilet at Beevers Reserve</b> and <b>the partial closure of Coronation Street beside Bell Reserve.</b></p>
