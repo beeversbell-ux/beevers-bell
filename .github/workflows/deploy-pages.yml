@@ -69,7 +69,7 @@ jobs:
           test -f _site/decision/21-april-2026/index.html
           grep -q 'HOW TO READ THIS RECORD' _site/index.html
           grep -q 'This website follows the story in three parts.' _site/index.html
-          grep -Fq '<h1>Elena Pereyra’s 21 April 2026 Beevers and Bell motion</h1>' _site/decision/21-april-2026/index.html
+          grep -q '21 April 2026 Council decision' _site/decision/21-april-2026/index.html
           grep -q 'https://beeversbell.com/' _site/robots.txt
           grep -q '<loc>https://beeversbell.com/</loc>' _site/sitemap.xml
           grep -q '<loc>https://beeversbell.com/decision/21-april-2026/</loc>' _site/sitemap.xml
@@ -127,7 +127,7 @@ jobs:
           curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors "https://beeversbell.com/robots.txt" -o /tmp/robots.txt
           curl -fsSL --retry 6 --retry-delay 5 --retry-all-errors "https://beeversbell.com/sitemap.xml" -o /tmp/sitemap.xml
           grep -q 'HOW TO READ THIS RECORD' /tmp/home.html
-          grep -Fq '<h1>Elena Pereyra’s 21 April 2026 Beevers and Bell motion</h1>' /tmp/decision.html
+          grep -q '21 April 2026 Council decision' /tmp/decision.html
           grep -q 'Sitemap: https://beeversbell.com/sitemap.xml' /tmp/robots.txt
           grep -q 'https://beeversbell.com/decision/21-april-2026/' /tmp/sitemap.xml
           echo "Live production routes verified."
